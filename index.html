@@ -2,381 +2,314 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>¿A qué jugamos? · Estantería Montoya</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#17352C">
+<title>¿A qué jugamos? · Montoya</title>
+<link rel="icon" href="data:image/png;base64,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">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Public+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Public+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 :root{
-  --fieltro:#17352C;
-  --fieltro-hondo:#0E241D;
-  --fieltro-luz:#20493C;
-  --carton:#E5D5B4;
-  --carton-canto:#BFA269;
-  --tinta:#26200F;
-  --tinta-suave:#5E5236;
-  --laton:#E3A62C;
-  --meeple:#B44532;
-  --radio:3px;
+  --fieltro:#17352C; --hondo:#0E241D;
+  --carton:#EBDCBD; --canto:#C4A96F; --sombra:#D3BF95;
+  --tinta:#2A2312; --suave:#6E6042;
+  --laton:#E3A62C; --meeple:#B44532;
+  --r:7px;
 }
-*{box-sizing:border-box}
-html,body{height:100%}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 body{
-  margin:0;
-  background:var(--fieltro);
-  background-image:radial-gradient(rgba(255,255,255,.035) 1px,transparent 1px);
-  background-size:4px 4px;
-  color:var(--carton);
-  font-family:"Public Sans",system-ui,sans-serif;
-  font-size:16px;line-height:1.55;
-  display:flex;justify-content:center;
+  margin:0;min-height:100dvh;background:var(--fieltro);
+  background-image:radial-gradient(rgba(255,255,255,.045) 1px,transparent 1px);
+  background-size:4px 4px;color:var(--carton);
+  font:16px/1.55 "Public Sans",system-ui,sans-serif;
+  padding:0 16px calc(30px + env(safe-area-inset-bottom));
 }
-.mesa{width:100%;max-width:780px;display:flex;flex-direction:column;height:100dvh}
+.mesa{max-width:540px;margin:0 auto}
 
-/* ---------- cabecera ---------- */
-header{padding:28px 22px 14px;flex:none}
-h1{
-  font-family:"Bricolage Grotesque",sans-serif;
-  font-weight:800;font-size:clamp(2.4rem,7vw,3.6rem);
-  letter-spacing:-.035em;line-height:.92;margin:0;
-  color:var(--laton);
-}
-.sub{margin:8px 0 0;color:#9FBAAE;font-size:.9rem;max-width:52ch}
-.sub b{color:var(--carton);font-weight:500}
+header{display:flex;align-items:center;gap:14px;padding:26px 2px 4px}
+header img{width:78px;height:auto;flex:none;
+  filter:drop-shadow(0 2px 6px rgba(0,0,0,.45))}
+header h1{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:800;
+  font-size:clamp(1.9rem,8.5vw,2.5rem);letter-spacing:-.04em;line-height:.92;
+  margin:0;color:var(--laton)}
+header p{margin:5px 0 0;font-size:.84rem;color:#9FBAAE}
 
-/* ---------- selectores ---------- */
-.ajustes{display:flex;gap:8px;flex-wrap:wrap;padding:14px 22px;flex:none;
-  border-bottom:1px solid rgba(191,162,105,.22)}
-.grupo{display:flex;align-items:center;gap:6px;background:var(--fieltro-hondo);
-  border:1px solid rgba(191,162,105,.28);border-radius:var(--radio);padding:4px 6px}
-.grupo span{font-size:.78rem;color:#9FBAAE;padding-left:4px}
-.grupo button{
-  font:inherit;font-size:.85rem;font-weight:500;
-  background:none;border:0;color:var(--carton);
-  padding:4px 9px;border-radius:2px;cursor:pointer;
-}
-.grupo button:hover{background:var(--fieltro-luz)}
-.grupo button[aria-pressed="true"]{background:var(--laton);color:var(--tinta);font-weight:700}
-.grupo button:focus-visible{outline:2px solid var(--laton);outline-offset:2px}
+.tablero{background:var(--carton);color:var(--tinta);border-radius:var(--r);
+  padding:20px 18px;margin-top:18px;box-shadow:0 3px 0 var(--sombra)}
+.saludo{margin:0 0 4px;font-size:1.02rem;font-weight:500}
+.saludo + p{margin:0 0 18px;font-size:.9rem;color:var(--suave)}
 
-/* ---------- conversación ---------- */
-#hilo{flex:1;overflow-y:auto;padding:22px;display:flex;flex-direction:column;gap:18px}
-.msg{max-width:min(94%,60ch)}
-.yo{align-self:flex-end;background:var(--fieltro-luz);
-  border:1px solid rgba(191,162,105,.3);border-radius:var(--radio);
-  padding:9px 13px;color:#EAF2EE}
-.bot{align-self:flex-start;position:relative;
-  background:var(--carton);color:var(--tinta);
-  border-radius:var(--radio);padding:14px 16px 14px 22px;
-  box-shadow:0 1px 0 var(--carton-canto)}
-.bot::before{content:"";position:absolute;left:0;top:0;bottom:0;width:7px;
-  background:var(--carton-canto);border-radius:var(--radio) 0 0 var(--radio)}
-.bot p{margin:0 0 .7em}.bot p:last-child{margin:0}
+fieldset{border:0;margin:0 0 16px;padding:0}
+legend{font-size:.86rem;font-weight:700;color:var(--tinta);padding:0 0 8px}
+.chips{display:flex;gap:7px;flex-wrap:wrap}
+.chip{font:inherit;font-size:.94rem;background:transparent;color:var(--tinta);
+  border:1.5px solid var(--canto);border-radius:var(--r);
+  padding:9px 15px;cursor:pointer;min-height:44px}
+.chip[aria-pressed="true"]{background:var(--fieltro);color:var(--carton);
+  border-color:var(--fieltro);font-weight:700}
+.chip:focus-visible{outline:2px solid var(--fieltro);outline-offset:2px}
 
-/* ficha de juego insertada en la respuesta */
-.ficha{display:inline-flex;align-items:baseline;gap:8px;
-  background:var(--tinta);color:var(--carton);
-  padding:2px 9px;border-radius:2px;margin:1px 0;
-  font-family:"Bricolage Grotesque",sans-serif;font-weight:600;letter-spacing:-.01em}
-.ficha em{font-style:normal;font-family:"Public Sans",sans-serif;
-  font-weight:400;font-size:.78rem;color:var(--laton);white-space:nowrap}
-.ficha.dudosa{background:var(--meeple)}
+.libre{margin:0 0 16px}
+.libre input{width:100%;font:inherit;background:rgba(42,35,18,.05);color:var(--tinta);
+  border:1.5px solid var(--canto);border-radius:var(--r);padding:12px 14px}
+.libre input::placeholder{color:#9A8B68;font-style:italic}
+.libre input:focus{outline:2px solid var(--fieltro);outline-offset:-1px}
 
-.aviso{align-self:center;color:#F0B9AE;background:rgba(180,69,50,.2);
-  border:1px solid var(--meeple);border-radius:var(--radio);
-  padding:9px 13px;font-size:.86rem;max-width:60ch}
-.aviso a{color:#F0B9AE}
+.ir{width:100%;font:inherit;font-size:1.1rem;font-weight:800;
+  font-family:"Bricolage Grotesque",system-ui,sans-serif;letter-spacing:-.02em;
+  background:var(--fieltro);color:var(--laton);border:0;border-radius:var(--r);
+  padding:16px;cursor:pointer;min-height:56px}
+.ir:active{background:var(--hondo)}
+.ir:focus-visible{outline:2px solid var(--fieltro);outline-offset:3px}
 
-.puntos span{display:inline-block;width:6px;height:6px;border-radius:50%;
-  background:var(--carton-canto);margin-right:4px;animation:lat 1.1s infinite}
-.puntos span:nth-child(2){animation-delay:.15s}
-.puntos span:nth-child(3){animation-delay:.3s}
-@keyframes lat{0%,60%,100%{opacity:.25}30%{opacity:1}}
-@media (prefers-reduced-motion:reduce){.puntos span{animation:none;opacity:.6}}
+#salida{margin-top:18px}
+.veredicto{background:var(--carton);color:var(--tinta);border-radius:var(--r);
+  padding:20px 18px;box-shadow:0 3px 0 var(--sombra);border-top:5px solid var(--laton)}
+.frase{margin:0;font-size:.92rem;color:var(--suave);font-style:italic}
+.veredicto h2{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:800;
+  font-size:clamp(1.6rem,7.5vw,2.1rem);letter-spacing:-.035em;line-height:1.05;margin:6px 0 0}
+.datos{display:flex;flex-wrap:wrap;gap:6px;margin:13px 0 0}
+.dato{background:var(--tinta);color:var(--carton);font-size:.79rem;
+  padding:3px 9px;border-radius:4px;white-space:nowrap}
+.dato.clave{background:var(--laton);color:var(--tinta);font-weight:700}
+.desc{margin:13px 0 0;color:var(--suave);font-size:.93rem}
+.razon{margin:11px 0 0;font-size:.9rem;font-weight:500}
 
-/* ---------- entrada ---------- */
-form{flex:none;display:flex;gap:8px;padding:14px 22px 20px;
-  background:var(--fieltro-hondo);border-top:1px solid rgba(191,162,105,.22)}
-input[type=text],input[type=password]{
-  flex:1;font:inherit;background:var(--fieltro);color:var(--carton);
-  border:1px solid rgba(191,162,105,.35);border-radius:var(--radio);padding:11px 13px}
-input::placeholder{color:#7E968C}
-input:focus{outline:2px solid var(--laton);outline-offset:-1px;border-color:transparent}
-button.enviar{font:inherit;font-weight:700;background:var(--laton);color:var(--tinta);
-  border:0;border-radius:var(--radio);padding:11px 20px;cursor:pointer}
-button.enviar:disabled{opacity:.4;cursor:default}
-button.enviar:focus-visible{outline:2px solid var(--carton);outline-offset:2px}
+.otras{margin:14px 0 0;padding:0;list-style:none}
+.otras .titulo{font-size:.8rem;color:#9FBAAE;margin:0 0 7px}
+.otras li{background:rgba(235,220,189,.1);border-radius:5px;padding:11px 14px;
+  display:flex;justify-content:space-between;gap:12px;align-items:baseline;margin-bottom:4px}
+.otras b{font-weight:500;color:var(--carton)}
+.otras span{font-size:.79rem;color:#9FBAAE;white-space:nowrap}
 
-/* ---------- puerta de la clave ---------- */
-.puerta{position:fixed;inset:0;background:rgba(14,36,29,.97);z-index:10;
-  display:flex;align-items:center;justify-content:center;padding:22px}
-.puerta div{max-width:46ch}
-.puerta h2{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;
-  font-size:1.8rem;letter-spacing:-.03em;margin:0 0 10px;color:var(--laton)}
-.puerta p{color:#B7CBC2;font-size:.92rem;margin:0 0 16px}
-.puerta form{background:none;border:0;padding:0}
-.puerta code{background:var(--fieltro);padding:1px 5px;border-radius:2px;font-size:.85em}
-footer{flex:none;padding:0 22px 10px;font-size:.74rem;color:#6F877D}
-footer button{background:none;border:0;color:#6F877D;font:inherit;
-  text-decoration:underline;cursor:pointer;padding:0}
+.otro{margin-top:12px;width:100%;font:inherit;font-weight:500;background:none;
+  border:1.5px solid rgba(196,169,111,.45);color:var(--carton);
+  border-radius:var(--r);padding:13px;cursor:pointer;min-height:48px}
+.otro:focus-visible{outline:2px solid var(--laton);outline-offset:2px}
+
+.vacio{background:var(--carton);color:var(--tinta);border-radius:var(--r);
+  padding:20px 18px;box-shadow:0 3px 0 var(--sombra);border-top:5px solid var(--meeple)}
+.vacio p{margin:0}
+.vacio .frase{margin-bottom:6px}
+
+footer{margin-top:28px;font-size:.74rem;color:#6F877D;line-height:1.5}
 </style>
 </head>
 <body>
-
-<div class="puerta" id="puerta" hidden>
-  <div>
-    <h2>Tu clave de API</h2>
-    <p>Esta página habla con Claude desde tu navegador. La clave se guarda solo en
-       este dispositivo y nunca sale hacia ningún sitio que no sea
-       <code>api.anthropic.com</code>. No está en el código de la web, así que no
-       queda expuesta en GitHub.</p>
-    <form id="formClave">
-      <input type="password" id="clave" placeholder="sk-ant-..." autocomplete="off" required>
-      <button class="enviar" type="submit">Guardar</button>
-    </form>
-  </div>
-</div>
-
 <div class="mesa">
-  <header>
-    <h1>¿A qué jugamos?</h1>
-    <p class="sub">La estantería de los Montoya, <b id="cuenta">…</b>.
-       Dime cuánto tiempo tenéis y qué os apetece.</p>
-  </header>
 
-  <div class="ajustes">
-    <div class="grupo" id="gTiempo"><span>Tiempo</span></div>
-    <div class="grupo" id="gGente"><span>Somos</span></div>
+<header>
+  <img src="data:image/png;base64,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" alt="Asociación Montoya">
+  <div>
+    <h1>¿A qué jugamos?</h1>
+    <p>Asociación Montoya · <span id="cuenta">…</span> en el armario</p>
+  </div>
+</header>
+
+<div class="tablero">
+  <p class="saludo">Hola. Me llamo Íñigo Montoya.</p>
+  <p>Dime qué tal andáis de tiempo y de gente, y te digo a qué jugar.</p>
+
+  <fieldset><legend>¿Cuánto rato tenéis?</legend><div class="chips" id="fTiempo"></div></fieldset>
+  <fieldset><legend>¿Cuántos sois?</legend><div class="chips" id="fGente"></div></fieldset>
+  <fieldset><legend>¿Qué os apetece?</legend><div class="chips" id="fGusto"></div></fieldset>
+
+  <div class="libre">
+    <input type="text" id="texto" placeholder="o cuéntamelo a tu manera" autocomplete="off" enterkeyhint="search">
   </div>
 
-  <div id="hilo"></div>
-
-  <form id="formChat">
-    <input type="text" id="entrada" placeholder="algo ligero para reírnos un rato" autocomplete="off">
-    <button class="enviar" type="submit" id="btn">Preguntar</button>
-  </form>
-  <footer>
-    Duraciones y jugadores vienen de BoardGameGeek, no del modelo ·
-    <button id="olvidar" type="button">olvidar mi clave</button>
-  </footer>
+  <button class="ir" id="btnIr">Dime a qué jugar</button>
 </div>
 
+<div id="salida"></div>
+
+<footer id="pie"></footer>
+</div>
+
+<script id="datos" type="application/json">{"generado":"2026-09-10","fuentes":["jalwz17/Board-Game-Data-Analysis (bgg_dataset.csv, snapshot feb-2021)","albert-marrero/bgg-data (CSV/rankings/2022-07-13.csv)","parche manual para titulos posteriores a 2021 (campo fuente=manual)"],"juegos":[{"id":167791,"nombre":"Terraforming Mars (Castellano)","nombre_bgg":"Terraforming Mars","expansion":false,"min_jugadores":1,"max_jugadores":5,"duracion":120,"edad_min":12,"anyo":2016,"nota":8.4,"dificultad":3.24,"mecanicas":["Card Drafting","Drafting","End Game Bonuses","Hand Management","Hexagon Grid","Income","Set Collection","Solo / Solitaire Game","Take That","Tile Placement","Turn Order: Progressive","Variable Player Powers"],"categorias":["Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Compete with rival CEOs to make Mars habitable and build your corporate empire."},{"id":9220,"nombre":"Saboteur Básico + Expansión","nombre_bgg":"Saboteur","expansion":false,"min_jugadores":3,"max_jugadores":10,"duracion":30,"edad_min":8,"anyo":2004,"nota":6.56,"dificultad":1.33,"mecanicas":["Hand Management","Hidden Roles","Map Addition","Network and Route Building","Take That","Team-Based Game","Traitor Game"],"categorias":["Familiar","Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"You are dwarves laying tunnel cards to get gold: but which one of you is the traitor?"},{"id":192291,"nombre":"Sushi Go! Party","nombre_bgg":"Sushi Go Party!","expansion":false,"min_jugadores":2,"max_jugadores":8,"duracion":20,"edad_min":8,"anyo":2016,"nota":7.43,"dificultad":1.32,"mecanicas":["Card Drafting","Drafting","End Game Bonuses","Hand Management","Set Collection","Simultaneous Action Selection"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Pass sushi around a bigger table and take the best dishes. Save room for dessert!"},{"id":225370,"nombre":"Between Two Cities. Capitales (Castellano)","nombre_bgg":"Between Two Cities: Capitals","expansion":true,"min_jugadores":null,"max_jugadores":null,"duracion":null,"mecanicas":[],"categorias":[],"fuente":"incompleto","nota":7.69,"descripcion":"You and your partners juggle districts, civic buildings, and asymmetric landscapes!","anyo":2017},{"id":260605,"nombre":"Camel Up 2.0 (Castellano)","nombre_bgg":"Camel Up (Second Edition)","expansion":false,"min_jugadores":3,"max_jugadores":8,"duracion":45,"edad_min":8,"anyo":2018,"nota":7.63,"dificultad":1.51,"mecanicas":["Betting and Bluffing","Dice Rolling","Roll / Spin and Move","Track Movement"],"categorias":["Familiar","Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Place your bets and bend the odds in this crazy camel-stacking race!"},{"id":295947,"nombre":"Cascadia","nombre_bgg":"Cascadia","expansion":false,"min_jugadores":1,"max_jugadores":4,"duracion":45,"edad_min":10,"anyo":2021,"nota":8.04,"dificultad":2.08,"mecanicas":["Drafting","Hexagon Grid","Pattern Building","Tile Placement"],"categorias":["Abstracto","Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Create the most harmonious ecosystem as you puzzle together habitats and wildlife."},{"id":108745,"nombre":"Seasons (Castellano)","nombre_bgg":"Seasons","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":60,"edad_min":14,"anyo":2012,"nota":7.38,"dificultad":2.77,"mecanicas":["Card Drafting","Dice Rolling","Drafting","Hand Management","Take That","Victory Points as a Resource"],"categorias":["Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Mages compete across twelve seasons to collect crystals and become the new archmage."},{"id":150145,"nombre":"Skull King (Castellano)","nombre_bgg":"Skull King","expansion":false,"min_jugadores":2,"max_jugadores":6,"duracion":30,"edad_min":8,"anyo":2013,"nota":7.46,"dificultad":1.76,"mecanicas":["Predictive Bid","Trick-taking"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Trick-taking on the high seas. Meet your bid to please the Skull King."},{"id":311900,"nombre":"Votes For Women (Castellano)","nombre_bgg":"Votes for Women","expansion":false,"min_jugadores":1,"max_jugadores":4,"duracion":90,"duracion_min":60,"dificultad":2.6,"mecanicas":["Area Majority","Card Play Conflict Resolution","Dice Rolling"],"categorias":["Estrategia","Tematico"],"fuente":"manual","nota":7.92,"descripcion":"A card-driven game on the ratification of the Nineteenth Amendment.","anyo":2022},{"id":178900,"nombre":"Código Secreto Nueva Edición","nombre_bgg":"Codenames","expansion":false,"min_jugadores":2,"max_jugadores":8,"duracion":15,"edad_min":14,"anyo":2015,"nota":7.58,"dificultad":1.29,"mecanicas":["Communication Limits","Memory","Push Your Luck","Team-Based Game"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Give your team clever one-word clues to help them spot their agents in the field."},{"id":180020,"nombre":"Virus!","nombre_bgg":"Virus!","expansion":false,"min_jugadores":2,"max_jugadores":6,"duracion":20,"edad_min":8,"anyo":2015,"nota":6.74,"dificultad":1.03,"mecanicas":["Card Drafting","Set Collection","Take That"],"categorias":["Familiar","Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Keep your body safe from viruses while infecting your rivals."},{"id":172225,"nombre":"Exploding Kittens","nombre_bgg":"Exploding Kittens","expansion":false,"min_jugadores":2,"max_jugadores":5,"duracion":15,"edad_min":7,"anyo":2015,"nota":6.04,"dificultad":1.07,"mecanicas":["Hand Management","Hot Potato","Player Elimination","Push Your Luck","Set Collection","Take That"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Ask for favors, attack friends, see the future- whatever it takes to avoid exploding!"},{"id":822,"nombre":"Carcassone","nombre_bgg":"Carcassonne","expansion":false,"min_jugadores":2,"max_jugadores":5,"duracion":45,"edad_min":7,"anyo":2000,"nota":7.42,"dificultad":1.91,"mecanicas":["Area Majority / Influence","Map Addition","Tile Placement"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Shape the medieval landscape of France, claiming cities, monasteries and farms."},{"id":174430,"nombre":"Gloomhaven","nombre_bgg":"Gloomhaven","expansion":false,"min_jugadores":1,"max_jugadores":4,"duracion":120,"edad_min":14,"anyo":2017,"nota":8.71,"dificultad":3.86,"mecanicas":["Action Queue","Action Retrieval","Campaign / Battle Card Driven","Card Play Conflict Resolution","Communication Limits","Cooperative Game","Deck Construction","Deck Bag and Pool Building","Grid Movement","Hand Management","Hexagon Grid","Legacy Game","Modular Board","Once-Per-Game Abilities","Scenario / Mission / Campaign Game","Simultaneous Action Selection","Solo / Solitaire Game","Storytelling","Variable Player Powers"],"categorias":["Estrategia","Tematico"],"fuente":"bgg_dataset_2021","descripcion":"Vanquish monsters with strategic cardplay. Fulfill your quest to leave your legacy!"},{"id":262543,"nombre":"Interferencias (6jugadores)","nombre_bgg":"Wavelength","expansion":false,"min_jugadores":2,"max_jugadores":12,"duracion":45,"edad_min":14,"anyo":2019,"nota":7.4,"dificultad":1.1,"mecanicas":["Betting and Bluffing","Race","Targeted Clues","Team-Based Game"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Read your teammates’ minds in this pinpoint party game of infinite possibilities."},{"id":146149,"nombre":"Speed cups","nombre_bgg":"Quick Cups","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":15,"edad_min":6,"anyo":2013,"nota":6.24,"dificultad":1.05,"mecanicas":["Pattern Building"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Stack cups as fast as you can to match the picture!"},{"id":80771,"nombre":"Dungeon raiders","nombre_bgg":"Dungeon Raiders","expansion":false,"min_jugadores":3,"max_jugadores":5,"duracion":60,"edad_min":8,"anyo":2011,"nota":6.67,"dificultad":1.41,"mecanicas":["Hand Management","Player Elimination","Simultaneous Action Selection","Take That","Variable Player Powers"],"categorias":["Familiar","Tematico"],"fuente":"bgg_dataset_2021","descripcion":"Team up to defeat monsters and split loot. Or be greedy and face the consequences."},{"id":1927,"nombre":"Munchkin","nombre_bgg":"Munchkin","expansion":false,"min_jugadores":3,"max_jugadores":6,"duracion":120,"edad_min":10,"anyo":2001,"nota":5.89,"dificultad":1.8,"mecanicas":["Hand Management","Take That","Variable Player Powers"],"categorias":["Tematico"],"fuente":"bgg_dataset_2021","descripcion":"Attack and loot in this humorous, card-based dungeon crawler."},{"id":163412,"nombre":"Patchwork","nombre_bgg":"Patchwork","expansion":false,"min_jugadores":2,"max_jugadores":2,"duracion":30,"edad_min":8,"anyo":2014,"nota":7.63,"dificultad":1.64,"mecanicas":["Card Drafting","Grid Coverage","Income","Square Grid","Tile Placement","Time Track","Victory Points as a Resource"],"categorias":["Abstracto","Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Piece together a quilt and leave no holes to become the button master."},{"id":37904,"nombre":"Formula D","nombre_bgg":"Formula D","expansion":false,"min_jugadores":2,"max_jugadores":10,"duracion":60,"edad_min":8,"anyo":2008,"nota":7.01,"dificultad":1.97,"mecanicas":["Dice Rolling","Different Dice Movement","Grid Movement","Movement Points","Player Elimination","Push Your Luck","Race","Roll / Spin and Move","Simulation"],"categorias":["Familiar","Tematico"],"fuente":"bgg_dataset_2021","descripcion":"Use custom dice to race in the cities and on Formula 1 courses."},{"id":14996,"nombre":"Aventureros al tren Europa","nombre_bgg":"Ticket to Ride: Europe","expansion":false,"min_jugadores":2,"max_jugadores":5,"duracion":60,"edad_min":8,"anyo":2005,"nota":7.54,"dificultad":1.94,"mecanicas":["Card Drafting","Connections","End Game Bonuses","Hand Management","Network and Route Building","Push Your Luck","Set Collection"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Build train routes across Europe in this sequel to the hit family board game."},{"id":253284,"nombre":"Aventureros al tren NY","nombre_bgg":"Ticket to Ride: New York","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":15,"edad_min":8,"anyo":2018,"nota":6.97,"dificultad":1.28,"mecanicas":["Card Drafting","Hand Management","Network and Route Building","Set Collection"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Catch a cab across Manhattan when low on time with this 15 minute express version."},{"id":3071,"nombre":"Bloodbown clasico","nombre_bgg":"Blood Bowl","expansion":false,"min_jugadores":2,"max_jugadores":2,"duracion":120,"edad_min":12,"anyo":1986,"nota":6.01,"dificultad":2.7,"mecanicas":["Grid Movement","Roll / Spin and Move","Square Grid"],"categorias":["Tematico"],"fuente":"bgg_dataset_2021"},{"id":175117,"nombre":"Celestia","nombre_bgg":"Celestia","expansion":false,"min_jugadores":2,"max_jugadores":6,"duracion":30,"edad_min":8,"anyo":2015,"nota":6.96,"dificultad":1.33,"mecanicas":["Betting and Bluffing","Dice Rolling","Hidden Victory Points","Push Your Luck"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Players take turns as pilot and press their luck to win the greatest treasures!"},{"id":33107,"nombre":"Senji","nombre_bgg":"Senji","expansion":false,"min_jugadores":3,"max_jugadores":6,"duracion":90,"edad_min":12,"anyo":2008,"nota":6.51,"dificultad":2.96,"mecanicas":["Area Movement","Auction/Bidding","Card Drafting","Dice Rolling","Hand Management","Order Counters","Set Collection","Simultaneous Action Selection","Trading"],"categorias":["Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Don the armor of a chief of a Japanese clan in medieval Japan."},{"id":230802,"nombre":"Azul","nombre_bgg":"Azul","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":45,"edad_min":8,"anyo":2017,"nota":7.78,"dificultad":1.77,"mecanicas":["Card Drafting","End Game Bonuses","Pattern Building","Set Collection","Tile Placement","Turn Order: Claim Action"],"categorias":["Abstracto","Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Artfully embellish the walls of your palace by drafting the most beautiful tiles."},{"id":70323,"nombre":"King of Tokyi","nombre_bgg":"King of Tokyo","expansion":false,"min_jugadores":2,"max_jugadores":6,"duracion":30,"edad_min":8,"anyo":2011,"nota":7.16,"dificultad":1.49,"mecanicas":["Card Drafting","Dice Rolling","King of the Hill","Player Elimination","Push Your Luck","Re-rolling and Locking"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"It's a fight to the death when giant monsters battle over Tokyo in this dice-roller."},{"id":266192,"nombre":"Wingspam","nombre_bgg":"Wingspan","expansion":false,"min_jugadores":1,"max_jugadores":5,"duracion":70,"edad_min":10,"anyo":2019,"nota":8.09,"dificultad":2.42,"mecanicas":["Card Drafting","Dice Rolling","Drafting","End Game Bonuses","Hand Management","Set Collection","Solo / Solitaire Game"],"categorias":["Familiar","Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Attract a beautiful and diverse collection of birds to your wildlife reserve."},{"id":156129,"nombre":"Asesinato en Hong Kong","nombre_bgg":"Deception: Murder in Hong Kong","expansion":false,"min_jugadores":4,"max_jugadores":12,"duracion":20,"edad_min":14,"anyo":2014,"nota":7.48,"dificultad":1.6,"mecanicas":["Deduction","Events","Hidden Roles","Storytelling","Team-Based Game","Traitor Game"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Interpret forensic evidence to solve a murder. Beware, the murderer may be among you!"},{"id":256320,"nombre":"Fertility","nombre_bgg":"Fertility","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":45,"edad_min":10,"anyo":2018,"nota":7.2,"dificultad":1.96,"mecanicas":["Modular Board","Set Collection","Tile Placement"],"categorias":["Familiar","Estrategia"],"fuente":"bgg_dataset_2021"},{"id":13,"nombre":"Catan","nombre_bgg":"CATAN","expansion":false,"min_jugadores":3,"max_jugadores":4,"duracion":120,"edad_min":10,"anyo":1995,"nota":7.12,"dificultad":2.32,"mecanicas":["Dice Rolling","Hexagon Grid","Income","Modular Board","Network and Route Building","Race","Random Production","Trading","Variable Set-up"],"categorias":["Familiar","Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Collect and trade resources to build up the island of Catan in this modern classic."},{"id":121410,"nombre":"Steam Park","nombre_bgg":"Steam Park","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":60,"edad_min":10,"anyo":2013,"nota":6.86,"dificultad":2.12,"mecanicas":["Card Drafting","Dice Rolling","Memory","Modular Board"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Ready, set, roll! Create the best robot amusement park!"},{"id":18,"nombre":"Robo Rally","nombre_bgg":"RoboRally","expansion":false,"min_jugadores":2,"max_jugadores":8,"duracion":120,"edad_min":12,"anyo":1994,"nota":7.07,"dificultad":2.43,"mecanicas":["Action Queue","Bias","Grid Movement","Lose a Turn","Modular Board","Programmed Movement","Race","Scenario / Mission / Campaign Game","Simultaneous Action Selection"],"categorias":["Estrategia","Tematico"],"fuente":"bgg_dataset_2021","descripcion":"Use pre-programmed movement cards to race your robot around a hazardous factory."},{"id":366013,"nombre":"HEAT","nombre_bgg":"Heat: Pedal to the Metal","expansion":false,"min_jugadores":2,"max_jugadores":6,"duracion":60,"duracion_min":30,"dificultad":1.9,"mecanicas":["Hand Management","Simultaneous Action Selection","Racing"],"categorias":["Estrategia","Familiar"],"fuente":"manual","nota":7.83,"descripcion":"Manage your race car's speed to keep from overheating.","anyo":2022},{"id":318472,"nombre":"Bloodbowl segunda temporada","nombre_bgg":"Blood Bowl: Second Season Edition","expansion":false,"min_jugadores":2,"max_jugadores":2,"duracion":120,"edad_min":12,"anyo":2020,"nota":8.57,"dificultad":3.55,"mecanicas":["Critical Hits and Failures","Dice Rolling","Grid Movement","Movement Points","Push Your Luck","Square Grid","Variable Player Powers","Zone of Control"],"categorias":[],"fuente":"bgg_dataset_2021","descripcion":"It’s not the winning or losing that matters, it’s the mayhem and violence that count!"},{"id":27848,"nombre":"La era de conan: el juego de tablero","nombre_bgg":"Age of Conan: The Strategy Board Game","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":90,"edad_min":12,"anyo":2009,"nota":6.66,"dificultad":3.28,"mecanicas":["Dice Rolling","Variable Phase Order","Variable Player Powers"],"categorias":["Estrategia","Tematico"],"fuente":"bgg_dataset_2021","descripcion":"Vie for control of Hyborian Age realms, and direct (or beware of) Conan's adventures."},{"id":172818,"nombre":"Arriba y abajo","nombre_bgg":"Above and Below","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":90,"edad_min":13,"anyo":2015,"nota":7.39,"dificultad":2.53,"mecanicas":["Action Points","Dice Rolling","Narrative Choice / Paragraph","Set Collection","Storytelling","Trading"],"categorias":["Tematico"],"fuente":"bgg_dataset_2021","descripcion":"Build your newly founded village above while exploring the caves and stories below."},{"id":181304,"nombre":"Mysterium","nombre_bgg":"Mysterium","expansion":false,"min_jugadores":2,"max_jugadores":7,"duracion":42,"edad_min":10,"anyo":2015,"nota":7.26,"dificultad":1.91,"mecanicas":["Communication Limits","Cooperative Game","Deduction","Finale Ending","Hand Management","Pattern Recognition"],"categorias":["Familiar","Tematico"],"fuente":"bgg_dataset_2021","descripcion":"Become a psychic and divine spectral visions to solve the murder of a restless ghost."},{"id":102548,"nombre":"Dungeon Fighters","nombre_bgg":"Dungeon Fighter","expansion":false,"min_jugadores":1,"max_jugadores":6,"duracion":60,"edad_min":14,"anyo":2011,"nota":6.82,"dificultad":1.75,"mecanicas":["Card Drafting","Cooperative Game","Dice Rolling","Drafting","Modular Board","Point to Point Movement","Turn Order: Progressive","Variable Player Powers","Variable Set-up"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Test your dice-rolling skills to overcome tricky challenges in dangerous dungeons."},{"id":39856,"nombre":"Dixit","nombre_bgg":"Dixit","expansion":false,"min_jugadores":3,"max_jugadores":6,"duracion":30,"edad_min":8,"anyo":2008,"nota":7.23,"dificultad":1.22,"mecanicas":["Race","Simultaneous Action Selection","Storytelling","Targeted Clues","Voting"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Give the perfect clue so most (not all) players guess the right surreal image card."},{"id":2952,"nombre":"Trivial (1453)","nombre_bgg":"Trivial Pursuit: Genus Edition","expansion":false,"min_jugadores":2,"max_jugadores":24,"duracion":90,"edad_min":12,"anyo":1981,"nota":5.23,"dificultad":1.65,"mecanicas":["Roll / Spin and Move","Set Collection"],"categorias":["Familiar","Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Prove you are the master of all things trivia, rolling and moving to collect pies."},{"id":31481,"nombre":"Galaxy Trucker","nombre_bgg":"Galaxy Trucker","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":60,"edad_min":10,"anyo":2007,"nota":7.38,"dificultad":2.33,"mecanicas":["Dice Rolling","Events","Real-Time","Relative Movement","Team-Based Game","Tile Placement","Track Movement"],"categorias":["Tematico"],"fuente":"bgg_dataset_2021","descripcion":"Prepare for unknown dangers by building the best spaceship possible."},{"id":3076,"nombre":"Puerto Rico","nombre_bgg":"Puerto Rico","expansion":false,"min_jugadores":3,"max_jugadores":5,"duracion":150,"edad_min":12,"anyo":2002,"nota":7.95,"dificultad":3.28,"mecanicas":["Action Drafting","End Game Bonuses","Follow","Hidden Victory Points","Increase Value of Unchosen Resources","Turn Order: Progressive","Variable Phase Order"],"categorias":["Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Ship goods, construct buildings, and choose roles that benefit you more than others."},{"id":90137,"nombre":"Bloodbowl Team Manager","nombre_bgg":"Blood Bowl: Team Manager – The Card Game","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":120,"edad_min":14,"anyo":2011,"nota":7.38,"dificultad":2.33,"mecanicas":["Area Majority / Influence","Card Drafting","Deck Bag and Pool Building","Dice Rolling","Hand Management"],"categorias":["Tematico"],"fuente":"bgg_dataset_2021","descripcion":"Coach your “fantasy” football team and gather most fans to win."},{"id":158899,"nombre":"Colt Express","nombre_bgg":"Colt Express","expansion":false,"min_jugadores":2,"max_jugadores":6,"duracion":40,"edad_min":10,"anyo":2014,"nota":7.1,"dificultad":1.82,"mecanicas":["Action Queue","Hand Management","Memory","Programmed Movement","Take That","Variable Player Powers"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"This is a train robbery! Will you leave with the loot or a bunch of bullet holes?"},{"id":233371,"nombre":"Clank en el espacio","nombre_bgg":"Clank! In! Space!: A Deck-Building Adventure","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":90,"edad_min":12,"anyo":2017,"nota":7.84,"dificultad":2.54,"mecanicas":["Card Drafting","Deck Bag and Pool Building","Modular Board","Pick-up and Deliver","Player Elimination","Point to Point Movement","Push Your Luck"],"categorias":["Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Tiptoe your way through Lord Eradikus' spaceship to nab artifacts and an escape pod."},{"id":155695,"nombre":"Age of War","nombre_bgg":"Age of War","expansion":false,"min_jugadores":2,"max_jugadores":6,"duracion":30,"edad_min":14,"anyo":2014,"nota":6.45,"dificultad":1.1,"mecanicas":["Dice Rolling","Push Your Luck","Set Collection","Take That"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Conquer castles and secure clans in a competitive push-your-luck dice roller."},{"id":224037,"nombre":"Codigo secreto duo","nombre_bgg":"Codenames: Duet","expansion":false,"min_jugadores":2,"max_jugadores":99,"duracion":30,"edad_min":11,"anyo":2017,"nota":7.5,"dificultad":1.34,"mecanicas":["Communication Limits","Cooperative Game","Push Your Luck","Team-Based Game"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Swap one-word coded clues with your partner, trying to identify specific word cards."},{"id":92828,"nombre":"Dixit origins (exp)","nombre_bgg":"Dixit: Odyssey","expansion":false,"min_jugadores":3,"max_jugadores":12,"duracion":30,"edad_min":8,"anyo":2011,"nota":7.43,"dificultad":1.19,"mecanicas":["Storytelling","Targeted Clues","Voting"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Don’t be too vague or on the nose when describing beautiful art cards."},{"id":25821,"nombre":"El hombre lobo, edicion definitiva","nombre_bgg":"The Werewolves of Miller's Hollow","expansion":false,"min_jugadores":8,"max_jugadores":18,"duracion":30,"edad_min":10,"anyo":2001,"nota":6.72,"dificultad":1.32,"mecanicas":["Player Elimination","Role Playing","Team-Based Game","Variable Player Powers","Voting"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Be a villager and lynch the werewolves... unless you are a werewolf yourself."},{"id":174518,"nombre":"Ylandyss","nombre_bgg":"Ylandyss","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":90,"edad_min":15,"anyo":2015,"nota":7.28,"dificultad":2.4,"mecanicas":["Deck Bag and Pool Building"],"categorias":[],"fuente":"bgg_dataset_2021"},{"id":154883,"nombre":"Si señor oscuro","nombre_bgg":"Sì, Oscuro Signore! (Seconda edizione)","expansion":false,"min_jugadores":3,"max_jugadores":6,"duracion":45,"duracion_min":45,"dificultad":1.7,"mecanicas":["Storytelling","Role Playing","Player Judge"],"categorias":["Fiesta"],"fuente":"manual","nota":6.13,"anyo":2005},{"id":254640,"nombre":"Just one","nombre_bgg":"Just One","expansion":false,"min_jugadores":3,"max_jugadores":7,"duracion":20,"edad_min":8,"anyo":2018,"nota":7.61,"dificultad":1.05,"mecanicas":["Communication Limits","Cooperative Game"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Give one-word clues so someone can guess one word, but duplicate clues are discarded."},{"id":154597,"nombre":"hive pocker","nombre_bgg":"Hive Pocket","expansion":false,"min_jugadores":2,"max_jugadores":2,"duracion":20,"duracion_min":20,"dificultad":2.3,"mecanicas":["Grid Movement","Pattern Building","Tile Placement"],"categorias":["Abstracto"],"fuente":"manual","nota":7.7,"descripcion":"Hop, fly, crawl and keep the Hive intact to surround the enemy Queen Bee and win!","anyo":2010},{"id":45,"nombre":"Perudo","nombre_bgg":"Perudo","expansion":false,"min_jugadores":2,"max_jugadores":6,"duracion":30,"edad_min":8,"anyo":1800,"nota":6.91,"dificultad":1.26,"mecanicas":["Betting and Bluffing","Dice Rolling","Player Elimination"],"categorias":["Familiar","Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Roll dice, take a chance, and bluff your way to victory in this game of luck!"},{"id":129622,"nombre":"Love letter ?","nombre_bgg":"Love Letter","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":20,"edad_min":10,"anyo":2012,"nota":7.23,"dificultad":1.19,"mecanicas":["Hand Management","Player Elimination","Score-and-Reset Game"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Can you get a letter to the princess or remove all your rivals? You win either way!"},{"id":143741,"nombre":"Bang juego de dados","nombre_bgg":"BANG! The Dice Game","expansion":false,"min_jugadores":3,"max_jugadores":8,"duracion":15,"edad_min":8,"anyo":2013,"nota":6.93,"dificultad":1.27,"mecanicas":["Dice Rolling","Hidden Roles","Player Elimination","Push Your Luck","Re-rolling and Locking","Team-Based Game","Variable Player Powers"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"A wild west elimination dice game with secret teams."},{"id":263918,"nombre":"Cartografos","nombre_bgg":"Cartographers","expansion":false,"min_jugadores":1,"max_jugadores":100,"duracion":45,"edad_min":10,"anyo":2019,"nota":7.69,"dificultad":1.91,"mecanicas":["Bingo","Grid Coverage","Line Drawing","Paper-and-Pencil","Solo / Solitaire Game"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"The Queen's cartographers compete to sketch the most efficient maps."},{"id":1353,"nombre":"Times up","nombre_bgg":"Time's Up!","expansion":false,"min_jugadores":4,"max_jugadores":18,"duracion":90,"edad_min":12,"anyo":1999,"nota":7.29,"dificultad":1.21,"mecanicas":["Acting","Communication Limits","Memory","Team-Based Game"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Get your teammates to guess real & fictional people while clues become more limited."},{"id":63268,"nombre":"Dobble","nombre_bgg":"Spot it!","expansion":false,"min_jugadores":2,"max_jugadores":8,"duracion":15,"edad_min":7,"anyo":2009,"nota":6.59,"dificultad":1.03,"mecanicas":["Speed Matching"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Quick! Which symbol is on both cards? Race others to gather or dump your cards."},{"id":8098,"nombre":"Jungle Speed (sin token)","nombre_bgg":"Jungle Speed","expansion":false,"min_jugadores":2,"max_jugadores":8,"duracion":10,"edad_min":7,"anyo":1997,"nota":6.49,"dificultad":1.14,"mecanicas":["Pattern Recognition","Speed Matching"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Flip a card, watch like an eagle for a match, and be the fastest to grab the totem."},{"id":82168,"nombre":"Escape from the aliens in outer space","nombre_bgg":"Escape from the Aliens in Outer Space","expansion":false,"min_jugadores":2,"max_jugadores":8,"duracion":45,"edad_min":12,"anyo":2010,"nota":6.93,"dificultad":1.87,"mecanicas":["Grid Movement","Hexagon Grid","Hidden Movement","Hidden Roles","Paper-and-Pencil","Secret Unit Deployment","Team-Based Game","Variable Player Powers"],"categorias":["Tematico"],"fuente":"bgg_dataset_2021","descripcion":"It's humans vs. aliens in a game of hidden movement and bluffing. Who will survive?"},{"id":2653,"nombre":"The Island","nombre_bgg":"Survive: Escape from Atlantis!","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":60,"edad_min":8,"anyo":1982,"nota":7.31,"dificultad":1.71,"mecanicas":["Action Points","Dice Rolling","Grid Movement","Hexagon Grid","Map Reduction","Memory","Modular Board","Secret Unit Deployment","Take That"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Sharks, whales, and sea monsters, oh my! Hurry and escape before Atlantis disappears!"},{"id":182874,"nombre":"Gran Hotel Austria","nombre_bgg":"Grand Austria Hotel","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":120,"edad_min":12,"anyo":2015,"nota":7.89,"dificultad":3.22,"mecanicas":["Action Drafting","Contracts","Dice Rolling","End Game Bonuses","Hand Management","Once-Per-Game Abilities","Set Collection","Variable Player Powers","Variable Set-up"],"categorias":["Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Serve guests and prepare rooms to be the best hotelier in the Viennese modern age."},{"id":237182,"nombre":"Root","nombre_bgg":"Root","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":90,"edad_min":10,"anyo":2018,"nota":8.1,"dificultad":3.67,"mecanicas":["Action Queue","Action Retrieval","Area Majority / Influence","Area Movement","Dice Rolling","Hand Management","Point to Point Movement","Race","Variable Player Powers"],"categorias":["Estrategia","Wargame"],"fuente":"bgg_dataset_2021","descripcion":"Decide the fate of the forest as woodland factions fight for contrasting goals."},{"id":330149,"nombre":"Root: los merodeadores (exp)","nombre_bgg":"Root: The Marauder Expansion","expansion":true,"min_jugadores":null,"max_jugadores":null,"duracion":null,"mecanicas":[],"categorias":[],"fuente":"incompleto","nota":8.88,"descripcion":"Ready yourself! New invaders enter the world of Root in the Marauder Expansion.","anyo":2022},{"id":31260,"nombre":"Agricola","nombre_bgg":"Agricola","expansion":false,"min_jugadores":1,"max_jugadores":5,"duracion":150,"edad_min":12,"anyo":2007,"nota":7.91,"dificultad":3.64,"mecanicas":["Advantage Token","Automatic Resource Growth","Card Drafting","Enclosure","Hand Management","Increase Value of Unchosen Resources","Solo / Solitaire Game","Turn Order: Claim Action","Variable Player Powers","Worker Placement"],"categorias":["Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Build your farmstead by sowing fields and raising livestock. But don't forget to eat!"},{"id":342942,"nombre":"Ark Nova","nombre_bgg":"Ark Nova","expansion":false,"min_jugadores":1,"max_jugadores":4,"duracion":150,"duracion_min":90,"dificultad":3.7,"mecanicas":["Card Drafting","Hand Management","Tile Placement","Set Collection"],"categorias":["Estrategia"],"fuente":"manual","nota":8.66,"descripcion":"Design a modern zoo to run a successful park and to support conservation projects.","anyo":2021},{"id":30869,"nombre":"Thebes","nombre_bgg":"Thebes","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":60,"edad_min":8,"anyo":2007,"nota":7.13,"dificultad":2.16,"mecanicas":["Point to Point Movement","Set Collection","Time Track"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Become an archaeologist as you study ancient cultures, go digging, and exhibit."},{"id":59959,"nombre":"Sobras sobre londres","nombre_bgg":"Letters from Whitechapel","expansion":false,"min_jugadores":2,"max_jugadores":6,"duracion":60,"edad_min":14,"anyo":2011,"nota":7.37,"dificultad":2.66,"mecanicas":["Hidden Movement","Memory","Point to Point Movement","Secret Unit Deployment","Team-Based Game"],"categorias":["Estrategia","Tematico"],"fuente":"bgg_dataset_2021","descripcion":"Slip away as Jack the Ripper or track his hidden movement as a team of investigators."},{"id":15987,"nombre":"Arkham Horror","nombre_bgg":"Arkham Horror","expansion":false,"min_jugadores":1,"max_jugadores":8,"duracion":240,"edad_min":14,"anyo":2005,"nota":7.25,"dificultad":3.58,"mecanicas":["Cooperative Game","Dice Rolling","Hand Management","Point to Point Movement","Role Playing","Solo / Solitaire Game","Stat Check Resolution","Variable Player Powers"],"categorias":["Tematico"],"fuente":"bgg_dataset_2021","descripcion":"Work as a team to save the town of Arkham from monsters and a Great Old One."},{"id":68448,"nombre":"7 wonders","nombre_bgg":"7 Wonders","expansion":false,"min_jugadores":2,"max_jugadores":7,"duracion":30,"edad_min":10,"anyo":2010,"nota":7.72,"dificultad":2.33,"mecanicas":["Card Drafting","Drafting","Hand Management","Set Collection","Simultaneous Action Selection","Variable Player Powers"],"categorias":["Familiar","Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Draft cards to develop your ancient civilization and build its Wonder of the World."},{"id":83195,"nombre":"Fantasmas Blitz","nombre_bgg":"Ghost Blitz","expansion":false,"min_jugadores":2,"max_jugadores":8,"duracion":20,"edad_min":8,"anyo":2010,"nota":6.71,"dificultad":1.15,"mecanicas":["Pattern Recognition","Speed Matching"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Quickly identify and grab hold of the correct item in a cluttered, spooky basement."},{"id":8203,"nombre":"Pinguinos","nombre_bgg":"Hey, That's My Fish!","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":20,"edad_min":8,"anyo":2003,"nota":6.7,"dificultad":1.46,"mecanicas":["Grid Movement","Hexagon Grid","Map Reduction","Modular Board"],"categorias":["Abstracto","Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Quest for the most fish, but don't get stranded as ice disappears beneath your feet."},{"id":298690,"nombre":"Diaspora","nombre_bgg":"Diáspora","expansion":false,"min_jugadores":1,"max_jugadores":24,"duracion":600,"edad_min":10,"anyo":2019,"nota":6.76,"dificultad":2.5,"mecanicas":["Cooperative Game","Deduction","Solo / Solitaire Game"],"categorias":[],"fuente":"bgg_dataset_2021","descripcion":"Solve mysteries and discover the story of this interstellar voyage."},{"id":173346,"nombre":"7 wonders Duel","nombre_bgg":"7 Wonders Duel","expansion":false,"min_jugadores":2,"max_jugadores":2,"duracion":30,"edad_min":10,"anyo":2015,"nota":8.1,"dificultad":2.23,"mecanicas":["Card Drafting","Drafting","Set Collection","Sudden Death Ending","Tug of War"],"categorias":["Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Science? Military? What will you draft to win this head-to-head version of 7 Wonders?"},{"id":309116,"nombre":"7 wonders Duel: Agora","nombre_bgg":"7 Wonders Duel: Agora","expansion":true,"min_jugadores":null,"max_jugadores":null,"duracion":null,"mecanicas":[],"categorias":[],"fuente":"incompleto","nota":8.14,"descripcion":"Claim victory by ruling the senate in this political expansion for 7 Wonders Duel!","anyo":2020},{"id":202976,"nombre":"7 wonders Duel: Pantheon","nombre_bgg":"7 Wonders Duel: Pantheon","expansion":true,"min_jugadores":null,"max_jugadores":null,"duracion":null,"mecanicas":[],"categorias":[],"fuente":"incompleto","nota":8.01,"descripcion":"Create a unique pantheon of gods to worship in this expansion for 7 Wonders Duel!","anyo":2016},{"id":136063,"nombre":"Deserto prohibido","nombre_bgg":"Forbidden Desert","expansion":false,"min_jugadores":2,"max_jugadores":5,"duracion":45,"edad_min":10,"anyo":2013,"nota":7.11,"dificultad":2.05,"mecanicas":["Action Points","Bias","Cooperative Game","Grid Movement","Hand Management","Map Reduction","Modular Board","Pick-up and Deliver","Set Collection","Solo / Solitaire Game","Square Grid","Variable Player Powers"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Work together to escape the desert, before sand buries you or your supplies run dry!"},{"id":155362,"nombre":"Cash N' Guns","nombre_bgg":"Ca$h 'n Guns: Second Edition","expansion":false,"min_jugadores":4,"max_jugadores":8,"duracion":30,"edad_min":10,"anyo":2014,"nota":6.87,"dificultad":1.26,"mecanicas":["Card Drafting","Player Elimination","Simultaneous Action Selection","Take That","Variable Player Powers"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"A band of gangsters splits its loot — but guns speak louder than money."},{"id":30909,"nombre":"Cash N' Guns yakuza","nombre_bgg":"Ca$h 'n Gun$: Yakuzas","expansion":false,"min_jugadores":4,"max_jugadores":8,"duracion":30,"duracion_min":30,"dificultad":1.4,"mecanicas":["Bluffing","Negotiation","Simultaneous Action Selection"],"categorias":["Fiesta"],"fuente":"manual","nota":6.53,"anyo":2007},{"id":478,"nombre":"Ciudadelas 2nd edition","nombre_bgg":"Citadels","expansion":false,"min_jugadores":2,"max_jugadores":8,"duracion":60,"edad_min":10,"anyo":2000,"nota":7.08,"dificultad":2.05,"mecanicas":["Action Drafting","Card Drafting","Lose a Turn","Set Collection","Turn Order: Role Order","Variable Player Powers"],"categorias":["Familiar","Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Bishop, warlord, thief, king: change roles, build your city and hinder your rivals."},{"id":139030,"nombre":"Mascarade","nombre_bgg":"Mascarade","expansion":false,"min_jugadores":2,"max_jugadores":13,"duracion":30,"edad_min":10,"anyo":2013,"nota":6.59,"dificultad":1.53,"mecanicas":["Hidden Roles","Memory","Variable Player Powers"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Get rich...or die trying in this fast-paced game of deduction and deception."},{"id":3955,"nombre":"Bang cartas","nombre_bgg":"BANG!","expansion":false,"min_jugadores":4,"max_jugadores":7,"duracion":40,"edad_min":10,"anyo":2002,"nota":6.5,"dificultad":1.64,"mecanicas":["Hand Management","Hidden Roles","Kill Steal","Player Elimination","Take That","Team-Based Game","Variable Player Powers"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Be the last one standing in this wild west shootout game with hidden roles."},{"id":169255,"nombre":"Juego de tronos: el juego de cartas","nombre_bgg":"A Game of Thrones: The Card Game (Second Edition)","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":120,"edad_min":14,"anyo":2015,"nota":7.53,"dificultad":3.53,"mecanicas":["Alliances","Card Drafting","Hand Management","Simultaneous Action Selection","Variable Player Powers"],"categorias":["Personalizable"],"fuente":"bgg_dataset_2021","descripcion":"Command Westeros' factions and plot your path to the Iron Throne."},{"id":169786,"nombre":"Scythe","nombre_bgg":"Scythe","expansion":false,"min_jugadores":1,"max_jugadores":5,"duracion":115,"edad_min":14,"anyo":2016,"nota":8.2,"dificultad":3.41,"mecanicas":["Area Majority / Influence","Card Play Conflict Resolution","Force Commitment","Grid Movement","Hexagon Grid","King of the Hill","Movement Points","Moving Multiple Units","Narrative Choice / Paragraph","Solo / Solitaire Game","Tech Trees / Tech Tracks","Variable Player Powers"],"categorias":["Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Five factions vie for dominance in a war-torn, mech-filled, dieselpunk 1920s Europe."},{"id":2651,"nombre":"Alta Tension","nombre_bgg":"Power Grid","expansion":false,"min_jugadores":2,"max_jugadores":6,"duracion":120,"edad_min":12,"anyo":2004,"nota":7.84,"dificultad":3.27,"mecanicas":["Auction/Bidding","Auction: Turn Order Until Pass","Catch the Leader","Income","Market","Network and Route Building","Turn Order: Stat-Based"],"categorias":["Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Bid, network, and manage resources in a race to supply the most cities with power."},{"id":36218,"nombre":"Dominion","nombre_bgg":"Dominion","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":30,"edad_min":13,"anyo":2008,"nota":7.61,"dificultad":2.36,"mecanicas":["Deck Bag and Pool Building","Delayed Purchase","Hand Management","Take That","Variable Set-up"],"categorias":["Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Acquire the most valuable lands by building your deck with treasure and power cards."},{"id":51,"nombre":"Ricochet Robots","nombre_bgg":"Ricochet Robots","expansion":false,"min_jugadores":1,"max_jugadores":99,"duracion":30,"edad_min":10,"anyo":1999,"nota":7.02,"dificultad":2.42,"mecanicas":["Grid Movement","Modular Board"],"categorias":["Abstracto"],"fuente":"bgg_dataset_2021","descripcion":"Be the first to solve a spatial puzzle using hard-controlled robots to win!"},{"id":345584,"nombre":"Mindbug","nombre_bgg":"Mindbug","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":20,"duracion_min":15,"dificultad":1.7,"mecanicas":["Hand Management","Take That","Variable Player Powers"],"categorias":["Estrategia"],"fuente":"manual","nota":8.03,"descripcion":"Serve the Mindbug, summon hybrids, and mind-control your opponent's best cards.","anyo":2022},{"id":128882,"nombre":"Avaon","nombre_bgg":"The Resistance: Avalon","expansion":false,"min_jugadores":5,"max_jugadores":10,"duracion":30,"edad_min":13,"anyo":2012,"nota":7.55,"dificultad":1.77,"mecanicas":["Hidden Roles","Roles with Asymmetric Information","Simultaneous Action Selection","Team-Based Game","Traitor Game","Variable Player Powers","Voting"],"categorias":["Fiesta"],"fuente":"bgg_dataset_2021","descripcion":"Who can you trust? A game of social deduction set in King Arthur’s legendary realm."},{"id":6352,"nombre":"El Señor de los Anillos","nombre_bgg":"Lord of the Rings","expansion":false,"min_jugadores":2,"max_jugadores":5,"duracion":20,"edad_min":6,"anyo":2003,"nota":5.92,"dificultad":1.24,"mecanicas":["Point to Point Movement","Roll / Spin and Move"],"categorias":["Infantil"],"fuente":"bgg_dataset_2021","descripcion":"Hobbits adventure through Middle Earth on a quest to destroy the One Ring."},{"id":24480,"nombre":"Los Pilares de la Tierra","nombre_bgg":"The Pillars of the Earth","expansion":false,"min_jugadores":2,"max_jugadores":4,"duracion":120,"edad_min":12,"anyo":2006,"nota":7.28,"dificultad":2.82,"mecanicas":["Events","Turn Order: Random","Worker Placement","Worker Placement","Different Worker Types"],"categorias":["Estrategia"],"fuente":"bgg_dataset_2021","descripcion":"Produce, craft, and recruit to build a cathedral in this classic worker placement."},{"id":209778,"nombre":"Magic Maze","nombre_bgg":"Magic Maze","expansion":false,"min_jugadores":1,"max_jugadores":8,"duracion":15,"edad_min":8,"anyo":2017,"nota":7.0,"dificultad":1.75,"mecanicas":["Communication Limits","Cooperative Game","Elapsed Real Time Ending","Grid Movement","Map Addition","Modular Board","Real-Time","Solo / Solitaire Game","Variable Player Powers"],"categorias":["Familiar"],"fuente":"bgg_dataset_2021","descripcion":"Silently cooperate to rob a labyrinthine shopping mall before time runs out."},{"id":171131,"nombre":"Captain Sonar","nombre_bgg":"Captain Sonar","expansion":false,"min_jugadores":2,"max_jugadores":8,"duracion":60,"edad_min":14,"anyo":2016,"nota":7.54,"dificultad":2.15,"mecanicas":["Grid Movement","Hidden Movement","Line Drawing","Real-Time","Role Playing","Secret Unit Deployment","Simulation","Team-Based Game"],"categorias":["Fiesta","Tematico"],"fuente":"bgg_dataset_2021","descripcion":"Torpedoes away! Hunt for your opponent's sub in this exciting, real-time team game."}]}</script>
 <script>
-const MODELO = "claude-sonnet-5";
-const TIEMPOS = [15, 30, 45, 60, 90, 120];
-const GENTE   = [2, 3, 4, 5, 6, 8];
+const $ = id => document.getElementById(id);
+const DATOS  = JSON.parse($("datos").textContent);
+const JUEGOS = DATOS.juegos.filter(g => !g.expansion && g.duracion);
+$("cuenta").textContent = JUEGOS.length + " juegos";
+$("pie").textContent = "Duraciones, jugadores y dificultad salen de BoardGameGeek. "
+  + "Los juegos de casa que no tienen ficha en BGG no aparecen aquí.";
 
-/* almacenamiento tolerante: en algunos previsualizadores localStorage falla */
-const guardado = (()=>{ let mem={}; return {
-  get:k=>{try{return localStorage.getItem(k)}catch{return mem[k]??null}},
-  set:(k,v)=>{try{localStorage.setItem(k,v)}catch{mem[k]=v}},
-  del:k=>{try{localStorage.removeItem(k)}catch{delete mem[k]}}};})();
+/* ── qué encaja con qué ───────────────────────────────── */
+const limpia = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+const cat = (g,c) => (g.categorias||[]).some(x => limpia(x).includes(limpia(c)));
+const mec = (g,m) => (g.mecanicas||[]).some(x => limpia(x).includes(limpia(m)));
 
-let JUEGOS=[], PORNOMBRE=new Map(), CATALOGO="", historial=[];
-let filtroTiempo=null, filtroGente=null;
+/* Ojo: los patrones van SIN eñes ni tildes, porque el texto llega ya normalizado. */
+const RASGOS = [
+  {id:"ligero", chip:"Ligero",       re:/ligero|sencill|facil|tont|sin pensar|suave|relajad|tranquil/,
+   ok:g => (g.dificultad ?? 3) < 2.1},
+  {id:"duro",   chip:"Con chicha",   re:/sesud|dur[oa]|comple[ji]|chicha|euro|pensar|cabeza|profund/,
+   ok:g => (g.dificultad ?? 0) >= 2.6},
+  {id:"fiesta", chip:"De fiesta",    re:/reir|risa|fiesta|party|grit|animad|desmadr|tonter/,
+   ok:g => cat(g,"Fiesta")},
+  {id:"familia",chip:"En familia",   re:/famili|nin[oa]|peque|crio|abuel/,
+   ok:g => cat(g,"Familiar") || cat(g,"Infantil")},
+  {id:"coop",   chip:"Cooperativo",  re:/coopera|equipo|junt[oa]s|contra el juego|colabor/,
+   ok:g => mec(g,"Cooperative")},
+  {id:"farol",  chip:"De farol",     re:/farol|mentir|traidor|traicion|ocult|engan|deduc|pillar/,
+   ok:g => mec(g,"Bluffing") || mec(g,"Hidden Role") || mec(g,"Deduction")},
+  {id:"cartas", chip:"De cartas",    re:/cart(a|as)|mazo|baraj/,
+   ok:g => mec(g,"Hand Management") || mec(g,"Card") || mec(g,"Deck")},
+  {id:"tema",   chip:"Con historia", re:/tematic|historia|inmersiv|ambient|narrativ|aventur/,
+   ok:g => cat(g,"Tematico")},
+  /* sin botón: solo por texto libre */
+  {id:"dados",  re:/dado/,                                      ok:g => mec(g,"Dice")},
+  {id:"nego",   re:/negoci|comerci|trapich|intercambi/,          ok:g => mec(g,"Negotiation") || mec(g,"Trading")},
+  {id:"pelea",  re:/guerra|wargame|batalla|pelea|conflict|zurr/, ok:g => cat(g,"Wargame") || mec(g,"Area Majority")},
+  {id:"abs",    re:/abstract|ficha|geometr/,                     ok:g => cat(g,"Abstracto")},
+  {id:"constr", re:/construir|civiliza|imperio|motor|econom/,     ok:g => mec(g,"Tile Placement") || mec(g,"Network") || mec(g,"Income")},
+];
 
-const hilo=document.getElementById("hilo");
-const btn=document.getElementById("btn");
-const entrada=document.getElementById("entrada");
+const NUM = {uno:1,una:1,dos:2,tres:3,cuatro:4,cinco:5,seis:6,siete:7,ocho:8,nueve:9,diez:10,once:11,doce:12};
+const cifra = s => /^\d+$/.test(s) ? +s : (NUM[s] ?? null);
 
-/* ---------- carga de datos ---------- */
-fetch("juegos.json").then(r=>{
-  if(!r.ok) throw new Error("HTTP "+r.status);
-  return r.json();
-}).then(d=>{
-  JUEGOS = d.juegos.filter(g=>!g.expansion && g.duracion);
-  JUEGOS.forEach(g=>{
-    PORNOMBRE.set(norm(g.nombre), g);
-    if(g.nombre_bgg) PORNOMBRE.set(norm(g.nombre_bgg), g);
-  });
-  document.getElementById("cuenta").textContent = JUEGOS.length+" juegos";
-  CATALOGO = JUEGOS.map(compacto).join("\n");
-  saluda();
-}).catch(e=>{
-  pinta("aviso","No he podido leer <code>juegos.json</code> ("+e.message+
-    "). Tiene que estar en la misma carpeta que esta página.");
-});
+function deTexto(txt){
+  const t = limpia(txt), p = {tiempo:null, gente:null, ids:[]};
+  let m;
+  if((m = t.match(/(\d+)\s*(?:min|'|′)/)))                      p.tiempo = +m[1];
+  else if(/hora y media/.test(t))                               p.tiempo = 90;
+  else if(/media hora/.test(t))                                 p.tiempo = 30;
+  else if((m = t.match(/(\d+|una|dos|tres)\s*h(?:ora)?s?\b/)))   p.tiempo = (cifra(m[1])||1)*60;
+  else if(/toda la (tarde|noche)|sin prisa|largo|tocho|partidaza/.test(t)) p.tiempo = 180;
+  else if(/rapid|corto|un ratito|poco tiempo|antes de cenar/.test(t))      p.tiempo = 20;
+  else if(/un rato/.test(t))                                    p.tiempo = 30;
 
-const norm = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
-                   .replace(/[^a-z0-9]+/g," ").trim();
+  if((m = t.match(/somos\s+(\d+|[a-z]+)/)) && cifra(m[1]))       p.gente = cifra(m[1]);
+  else if((m = t.match(/(\d+|[a-z]+)\s*(?:person|jugador|amig|gente|colega)/)) && cifra(m[1]))
+                                                                p.gente = cifra(m[1]);
+  else if(/en pareja|a dos|en duo|dos jugador|los dos/.test(t))  p.gente = 2;
+  else if(/en solitario|yo sol|solo yo/.test(t))                 p.gente = 1;
+  else if(/much[ao] gente|un mont[oa]n|somos un grupo/.test(t))   p.gente = 7;
 
-function compacto(g){
-  return [g.nombre,
-    g.duracion+"min",
-    g.min_jugadores+"-"+g.max_jugadores+"j",
-    "dif "+(g.dificultad??"?"),
-    (g.categorias||[]).join("/")||"?",
-    (g.mecanicas||[]).slice(0,4).join(", "),
-    g.descripcion||""
-  ].join(" | ");
+  RASGOS.forEach(r => { if(r.re.test(t)) p.ids.push(r.id); });
+  return p;
 }
 
-/* ---------- selectores ---------- */
-function pintaGrupo(id, valores, sufijo, alCambiar){
-  const cont=document.getElementById(id);
-  valores.forEach(v=>{
-    const b=document.createElement("button");
-    b.type="button"; b.textContent=v+sufijo; b.setAttribute("aria-pressed","false");
-    b.onclick=()=>{
-      const activo=b.getAttribute("aria-pressed")==="true";
-      cont.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed","false"));
-      b.setAttribute("aria-pressed", activo?"false":"true");
-      alCambiar(activo?null:v);
+/* ── puntuar ──────────────────────────────────────────── */
+let recientes = [];
+
+function puntua(g, p, rasgos){
+  let pts = 0, porque = [];
+  if(p.gente != null){
+    if(p.gente < g.min_jugadores || p.gente > g.max_jugadores) return null;
+    pts += 3;
+    if(g.max_jugadores - g.min_jugadores <= 2) pts += 1;
+    porque.push("os vale siendo " + p.gente);
+  }
+  if(p.tiempo != null){
+    if(g.duracion > p.tiempo * 1.3) return null;
+    const uso = g.duracion / p.tiempo;
+    pts += uso >= .6 ? 3 : uso >= .35 ? 2 : 1;
+    porque.push(g.duracion <= p.tiempo ? "cabe en el rato que tenéis" : "se os pasa un poco de tiempo");
+  }
+  for(const r of rasgos){
+    if(r.ok(g)){ pts += 4; porque.push((r.chip || r.id).toLowerCase()); }
+    else pts -= 2;
+  }
+  pts += ((g.nota ?? 6.5) - 6.5) * .8;
+  if(recientes.includes(g.id)) pts -= 4;
+  pts += Math.random() * 1.2;
+  return {g, pts, porque};
+}
+
+/* ── pintar ───────────────────────────────────────────── */
+const esc = s => String(s).replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const peso = d => d == null ? "peso desconocido"
+  : d < 1.6 ? "muy ligero" : d < 2.1 ? "ligero" : d < 2.6 ? "medio"
+  : d < 3.1 ? "medio-alto" : d < 3.6 ? "denso" : "muy denso";
+
+const FRASES = ["Vas a jugar a", "Sacad del armario", "Lo tengo claro:",
+                "Yo hoy cogería", "Esto es lo vuestro:"];
+let vez = 0;
+
+function recomienda(){
+  const p = deTexto($("texto").value);
+  if(pTiempo != null) p.tiempo = pTiempo;
+  if(pGente  != null) p.gente  = pGente;
+  const ids = [...new Set([...p.ids, ...pGustos])];
+  const rasgos = RASGOS.filter(r => ids.includes(r.id));
+
+  const lista = JUEGOS.map(g => puntua(g, p, rasgos)).filter(Boolean)
+                      .sort((a,b) => b.pts - a.pts).slice(0,3);
+
+  if(!lista.length){
+    const q = [];
+    if(p.gente)  q.push("siendo " + p.gente);
+    if(p.tiempo) q.push("en " + p.tiempo + " minutos");
+    $("salida").innerHTML = `<div class="vacio">
+      <p class="frase">Aquí me has pillado.</p>
+      <p>No tengo nada en el armario que encaje ${q.length ? esc(q.join(" y ")) : "con eso"}.
+         Dadme un poco más de tiempo, o quitad alguna condición.</p></div>`;
+    $("salida").scrollIntoView({behavior:"smooth", block:"nearest"});
+    return;
+  }
+
+  const [top, ...resto] = lista;
+  recientes = [top.g.id, ...recientes].slice(0,6);
+  const frase = FRASES[vez++ % FRASES.length];
+
+  $("salida").innerHTML = `
+    <article class="veredicto">
+      <p class="frase">${frase}</p>
+      <h2>${esc(top.g.nombre)}</h2>
+      <div class="datos">
+        <span class="dato clave">${top.g.duracion}′</span>
+        <span class="dato clave">${top.g.min_jugadores}–${top.g.max_jugadores} jugadores</span>
+        <span class="dato">${esc(peso(top.g.dificultad))}</span>
+        ${(top.g.categorias||[]).map(c => `<span class="dato">${esc(c)}</span>`).join("")}
+      </div>
+      ${top.g.descripcion ? `<p class="desc">${esc(top.g.descripcion)}</p>` : ""}
+      ${top.porque.length ? `<p class="razon">Por qué: ${esc(top.porque.join(", "))}.</p>` : ""}
+    </article>
+    ${resto.length ? `<ul class="otras"><p class="titulo">Si ese no os apetece</p>${
+      resto.map(({g}) => `<li><b>${esc(g.nombre)}</b><span>${g.duracion}′ · ${g.min_jugadores}–${g.max_jugadores}</span></li>`).join("")
+    }</ul>` : ""}
+    <button class="otro" id="btnOtro">No me convence, dame otra</button>`;
+  $("btnOtro").onclick = recomienda;
+  $("salida").scrollIntoView({behavior:"smooth", block:"nearest"});
+}
+
+/* ── botones ──────────────────────────────────────────── */
+let pTiempo = null, pGente = null, pGustos = [];
+
+function unico(cont, opciones, set){
+  opciones.forEach(([txt, val]) => {
+    const b = document.createElement("button");
+    b.className = "chip"; b.type = "button"; b.textContent = txt;
+    b.setAttribute("aria-pressed","false");
+    b.onclick = () => {
+      const on = b.getAttribute("aria-pressed") === "true";
+      cont.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed","false"));
+      b.setAttribute("aria-pressed", on ? "false" : "true");
+      set(on ? null : val);
     };
     cont.appendChild(b);
   });
 }
-pintaGrupo("gTiempo",TIEMPOS,"′",v=>filtroTiempo=v);
-pintaGrupo("gGente",GENTE,"",v=>filtroGente=v);
+unico($("fTiempo"), [["15′",15],["30′",30],["45′",45],["1 h",60],["1½ h",90],["2 h y pico",150]], v => pTiempo = v);
+unico($("fGente"),  [["2",2],["3",3],["4",4],["5",5],["6",6],["7 o más",8]],                      v => pGente  = v);
 
-/* ---------- pintado ---------- */
-function pinta(clase, html){
-  const el=document.createElement("div");
-  el.className="msg "+clase; el.innerHTML=html;
-  hilo.appendChild(el); hilo.scrollTop=hilo.scrollHeight;
-  return el;
-}
-
-/* [[Nombre]] -> ficha con datos reales del JSON, nunca del modelo */
-function fichas(texto){
-  const esc = s => s.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
-  return esc(texto).replace(/\[\[([^\]]+)\]\]/g, (_,nom)=>{
-    const g = PORNOMBRE.get(norm(nom));
-    if(!g) return `<span class="ficha dudosa">${nom} <em>no está en la estantería</em></span>`;
-    return `<span class="ficha">${g.nombre} <em>${g.duracion}′ · `+
-           `${g.min_jugadores}-${g.max_jugadores} jug.</em></span>`;
-  }).split(/\n{2,}/).map(p=>"<p>"+p.replace(/\n/g,"<br>")+"</p>").join("");
-}
-
-function saluda(){
-  pinta("bot", fichas(
-    "Tengo la estantería entera delante. Marca arriba el tiempo y cuántos sois, "+
-    "o cuéntamelo escribiendo: «somos 5, hora y media, algo con chicha» o "+
-    "«20 minutos y que no haya que pensar»."));
-}
-
-/* ---------- instrucciones del modelo ---------- */
-function sistema(){
-  return `Eres el recomendador de juegos de mesa de la casa Montoya. Hablas en español, en tono cercano y directo, sin florituras.
-
-Este es el CATÁLOGO COMPLETO de lo que hay en casa. Formato:
-nombre | duración | jugadores | dificultad (1-5) | categorías | mecánicas | descripción
-
-${CATALOGO}
-
-Reglas que no puedes saltarte:
-1. Solo puedes recomendar juegos de esa lista. Si alguien pregunta por uno que no está, dilo claramente y ofrece la alternativa más parecida DE LA LISTA.
-2. Escribe el nombre de cada juego que recomiendes entre dobles corchetes, exactamente como aparece en el catálogo: [[Terraforming Mars (Castellano)]]. La página sustituye eso por una ficha con la duración y los jugadores reales.
-3. Nunca escribas tú la duración ni el número de jugadores en el texto. Ya salen en la ficha. Sí puedes decir "os cabe de sobra" o "se os va a ir de tiempo".
-4. Recomienda como mucho 3 juegos, y explica en una frase por qué encaja con lo que han pedido.
-5. Si el tiempo o el número de jugadores que piden no encaja con nada, dilo en vez de forzar una recomendación. Es preferible decir "con 8 personas y 20 minutos no tengo nada bueno" que colar un juego que no vale.
-6. La dificultad es la escala de complejidad de BoardGameGeek: por debajo de 2 es ligero, por encima de 3 es sesudo.
-7. Respuestas cortas. Dos o tres frases por juego como mucho.`;
-}
-
-/* ---------- envío ---------- */
-document.getElementById("formChat").addEventListener("submit", async e=>{
-  e.preventDefault();
-  const clave = guardado.get("claveApi");
-  if(!clave){ document.getElementById("puerta").hidden=false; return; }
-
-  let texto = entrada.value.trim();
-  const ctx=[];
-  if(filtroTiempo) ctx.push("tenemos unos "+filtroTiempo+" minutos");
-  if(filtroGente)  ctx.push("somos "+filtroGente);
-  if(!texto && !ctx.length) return;
-  if(!texto) texto = "¿Qué nos recomiendas?";
-  const visible = ctx.length ? texto+" ("+ctx.join(", ")+")" : texto;
-
-  entrada.value=""; btn.disabled=true;
-  pinta("yo", visible.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])));
-  historial.push({role:"user", content:visible});
-
-  const cargando = pinta("bot",'<span class="puntos"><span></span><span></span><span></span></span>');
-
-  try{
-    const texto2 = await llama(clave, cargando);
-    historial.push({role:"assistant", content:texto2});
-    if(historial.length>16) historial = historial.slice(-16);
-  }catch(err){
-    cargando.remove();
-    pinta("aviso", err.message);
-  }finally{
-    btn.disabled=false; entrada.focus();
-  }
-});
-
-async function llama(clave, destino, sinPensar=true){
-  const cuerpo = {
-    model: MODELO,
-    max_tokens: 700,
-    system: [{type:"text", text:sistema(), cache_control:{type:"ephemeral"}}],
-    messages: historial,
-    stream: true
+RASGOS.filter(r => r.chip).forEach(r => {
+  const b = document.createElement("button");
+  b.className = "chip"; b.type = "button"; b.textContent = r.chip;
+  b.setAttribute("aria-pressed","false");
+  b.onclick = () => {
+    const on = b.getAttribute("aria-pressed") === "true";
+    b.setAttribute("aria-pressed", on ? "false" : "true");
+    pGustos = on ? pGustos.filter(x => x !== r.id) : [...pGustos, r.id];
   };
-  if(sinPensar) cuerpo.thinking = {type:"disabled"};
-
-  const r = await fetch("https://api.anthropic.com/v1/messages",{
-    method:"POST",
-    headers:{
-      "content-type":"application/json",
-      "x-api-key":clave,
-      "anthropic-version":"2023-06-01",
-      "anthropic-dangerous-direct-browser-access":"true"
-    },
-    body: JSON.stringify(cuerpo)
-  });
-
-  if(!r.ok){
-    const err = await r.text();
-    if(sinPensar && r.status===400 && /thinking/i.test(err))
-      return llama(clave, destino, false);          // reintento sin el parámetro
-    if(r.status===401){
-      guardado.del("claveApi");
-      throw new Error("La clave no vale. Recarga la página para meter otra.");
-    }
-    if(r.status===429) throw new Error("Demasiadas peticiones seguidas. Espera unos segundos.");
-    throw new Error("La API ha respondido "+r.status+". "+err.slice(0,180));
-  }
-
-  const lector = r.body.getReader(), dec = new TextDecoder();
-  let resto="", acumulado="";
-  destino.innerHTML="";
-  for(;;){
-    const {done, value} = await lector.read();
-    if(done) break;
-    resto += dec.decode(value,{stream:true});
-    const lineas = resto.split("\n"); resto = lineas.pop();
-    for(const l of lineas){
-      if(!l.startsWith("data:")) continue;
-      let ev; try{ ev = JSON.parse(l.slice(5)); }catch{ continue; }
-      if(ev.type==="content_block_delta" && ev.delta?.type==="text_delta"){
-        acumulado += ev.delta.text;
-        destino.innerHTML = fichas(acumulado);
-        hilo.scrollTop = hilo.scrollHeight;
-      }
-      if(ev.type==="error") throw new Error(ev.error?.message||"Error de la API");
-    }
-  }
-  if(!acumulado) throw new Error("La respuesta ha venido vacía.");
-  return acumulado;
-}
-
-/* ---------- clave ---------- */
-if(!guardado.get("claveApi")) document.getElementById("puerta").hidden=false;
-document.getElementById("formClave").addEventListener("submit", e=>{
-  e.preventDefault();
-  const v=document.getElementById("clave").value.trim();
-  if(!v) return;
-  guardado.set("claveApi", v);
-  document.getElementById("puerta").hidden=true;
-  entrada.focus();
+  $("fGusto").appendChild(b);
 });
-document.getElementById("olvidar").onclick=()=>{
-  guardado.del("claveApi");
-  document.getElementById("puerta").hidden=false;
-};
+
+$("btnIr").onclick = recomienda;
+$("texto").addEventListener("keydown", e => { if(e.key === "Enter"){ e.target.blur(); recomienda(); } });
 </script>
 </body>
 </html>
