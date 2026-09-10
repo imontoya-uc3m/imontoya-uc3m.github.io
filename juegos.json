@@ -1,0 +1,2399 @@
+{
+ "generado": "2026-09-10",
+ "fuentes": [
+  "jalwz17/Board-Game-Data-Analysis (bgg_dataset.csv, snapshot feb-2021)",
+  "albert-marrero/bgg-data (CSV/rankings/2022-07-13.csv)",
+  "parche manual para titulos posteriores a 2021 (campo fuente=manual)"
+ ],
+ "juegos": [
+  {
+   "id": 167791,
+   "nombre": "Terraforming Mars (Castellano)",
+   "nombre_bgg": "Terraforming Mars",
+   "expansion": false,
+   "min_jugadores": 1,
+   "max_jugadores": 5,
+   "duracion": 120,
+   "edad_min": 12,
+   "anyo": 2016,
+   "nota": 8.4,
+   "dificultad": 3.24,
+   "mecanicas": [
+    "Card Drafting",
+    "Drafting",
+    "End Game Bonuses",
+    "Hand Management",
+    "Hexagon Grid",
+    "Income",
+    "Set Collection",
+    "Solo / Solitaire Game",
+    "Take That",
+    "Tile Placement",
+    "Turn Order: Progressive",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Compete with rival CEOs to make Mars habitable and build your corporate empire."
+  },
+  {
+   "id": 9220,
+   "nombre": "Saboteur Básico + Expansión",
+   "nombre_bgg": "Saboteur",
+   "expansion": false,
+   "min_jugadores": 3,
+   "max_jugadores": 10,
+   "duracion": 30,
+   "edad_min": 8,
+   "anyo": 2004,
+   "nota": 6.56,
+   "dificultad": 1.33,
+   "mecanicas": [
+    "Hand Management",
+    "Hidden Roles",
+    "Map Addition",
+    "Network and Route Building",
+    "Take That",
+    "Team-Based Game",
+    "Traitor Game"
+   ],
+   "categorias": [
+    "Familiar",
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "You are dwarves laying tunnel cards to get gold: but which one of you is the traitor?"
+  },
+  {
+   "id": 192291,
+   "nombre": "Sushi Go! Party",
+   "nombre_bgg": "Sushi Go Party!",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 8,
+   "duracion": 20,
+   "edad_min": 8,
+   "anyo": 2016,
+   "nota": 7.43,
+   "dificultad": 1.32,
+   "mecanicas": [
+    "Card Drafting",
+    "Drafting",
+    "End Game Bonuses",
+    "Hand Management",
+    "Set Collection",
+    "Simultaneous Action Selection"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Pass sushi around a bigger table and take the best dishes. Save room for dessert!"
+  },
+  {
+   "id": 225370,
+   "nombre": "Between Two Cities. Capitales (Castellano)",
+   "nombre_bgg": "Between Two Cities: Capitals",
+   "expansion": true,
+   "min_jugadores": null,
+   "max_jugadores": null,
+   "duracion": null,
+   "mecanicas": [],
+   "categorias": [],
+   "fuente": "incompleto",
+   "nota": 7.69,
+   "descripcion": "You and your partners juggle districts, civic buildings, and asymmetric landscapes!",
+   "anyo": 2017
+  },
+  {
+   "id": 260605,
+   "nombre": "Camel Up 2.0 (Castellano)",
+   "nombre_bgg": "Camel Up (Second Edition)",
+   "expansion": false,
+   "min_jugadores": 3,
+   "max_jugadores": 8,
+   "duracion": 45,
+   "edad_min": 8,
+   "anyo": 2018,
+   "nota": 7.63,
+   "dificultad": 1.51,
+   "mecanicas": [
+    "Betting and Bluffing",
+    "Dice Rolling",
+    "Roll / Spin and Move",
+    "Track Movement"
+   ],
+   "categorias": [
+    "Familiar",
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Place your bets and bend the odds in this crazy camel-stacking race!"
+  },
+  {
+   "id": 295947,
+   "nombre": "Cascadia",
+   "nombre_bgg": "Cascadia",
+   "expansion": false,
+   "min_jugadores": 1,
+   "max_jugadores": 4,
+   "duracion": 45,
+   "edad_min": 10,
+   "anyo": 2021,
+   "nota": 8.04,
+   "dificultad": 2.08,
+   "mecanicas": [
+    "Drafting",
+    "Hexagon Grid",
+    "Pattern Building",
+    "Tile Placement"
+   ],
+   "categorias": [
+    "Abstracto",
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Create the most harmonious ecosystem as you puzzle together habitats and wildlife."
+  },
+  {
+   "id": 108745,
+   "nombre": "Seasons (Castellano)",
+   "nombre_bgg": "Seasons",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 60,
+   "edad_min": 14,
+   "anyo": 2012,
+   "nota": 7.38,
+   "dificultad": 2.77,
+   "mecanicas": [
+    "Card Drafting",
+    "Dice Rolling",
+    "Drafting",
+    "Hand Management",
+    "Take That",
+    "Victory Points as a Resource"
+   ],
+   "categorias": [
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Mages compete across twelve seasons to collect crystals and become the new archmage."
+  },
+  {
+   "id": 150145,
+   "nombre": "Skull King (Castellano)",
+   "nombre_bgg": "Skull King",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 6,
+   "duracion": 30,
+   "edad_min": 8,
+   "anyo": 2013,
+   "nota": 7.46,
+   "dificultad": 1.76,
+   "mecanicas": [
+    "Predictive Bid",
+    "Trick-taking"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Trick-taking on the high seas. Meet your bid to please the Skull King."
+  },
+  {
+   "id": 311900,
+   "nombre": "Votes For Women (Castellano)",
+   "nombre_bgg": "Votes for Women",
+   "expansion": false,
+   "min_jugadores": 1,
+   "max_jugadores": 4,
+   "duracion": 90,
+   "duracion_min": 60,
+   "dificultad": 2.6,
+   "mecanicas": [
+    "Area Majority",
+    "Card Play Conflict Resolution",
+    "Dice Rolling"
+   ],
+   "categorias": [
+    "Estrategia",
+    "Tematico"
+   ],
+   "fuente": "manual",
+   "nota": 7.92,
+   "descripcion": "A card-driven game on the ratification of the Nineteenth Amendment.",
+   "anyo": 2022
+  },
+  {
+   "id": 178900,
+   "nombre": "Código Secreto Nueva Edición",
+   "nombre_bgg": "Codenames",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 8,
+   "duracion": 15,
+   "edad_min": 14,
+   "anyo": 2015,
+   "nota": 7.58,
+   "dificultad": 1.29,
+   "mecanicas": [
+    "Communication Limits",
+    "Memory",
+    "Push Your Luck",
+    "Team-Based Game"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Give your team clever one-word clues to help them spot their agents in the field."
+  },
+  {
+   "id": 180020,
+   "nombre": "Virus!",
+   "nombre_bgg": "Virus!",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 6,
+   "duracion": 20,
+   "edad_min": 8,
+   "anyo": 2015,
+   "nota": 6.74,
+   "dificultad": 1.03,
+   "mecanicas": [
+    "Card Drafting",
+    "Set Collection",
+    "Take That"
+   ],
+   "categorias": [
+    "Familiar",
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Keep your body safe from viruses while infecting your rivals."
+  },
+  {
+   "id": 172225,
+   "nombre": "Exploding Kittens",
+   "nombre_bgg": "Exploding Kittens",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 5,
+   "duracion": 15,
+   "edad_min": 7,
+   "anyo": 2015,
+   "nota": 6.04,
+   "dificultad": 1.07,
+   "mecanicas": [
+    "Hand Management",
+    "Hot Potato",
+    "Player Elimination",
+    "Push Your Luck",
+    "Set Collection",
+    "Take That"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Ask for favors, attack friends, see the future- whatever it takes to avoid exploding!"
+  },
+  {
+   "id": 822,
+   "nombre": "Carcassone",
+   "nombre_bgg": "Carcassonne",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 5,
+   "duracion": 45,
+   "edad_min": 7,
+   "anyo": 2000,
+   "nota": 7.42,
+   "dificultad": 1.91,
+   "mecanicas": [
+    "Area Majority / Influence",
+    "Map Addition",
+    "Tile Placement"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Shape the medieval landscape of France, claiming cities, monasteries and farms."
+  },
+  {
+   "id": 174430,
+   "nombre": "Gloomhaven",
+   "nombre_bgg": "Gloomhaven",
+   "expansion": false,
+   "min_jugadores": 1,
+   "max_jugadores": 4,
+   "duracion": 120,
+   "edad_min": 14,
+   "anyo": 2017,
+   "nota": 8.71,
+   "dificultad": 3.86,
+   "mecanicas": [
+    "Action Queue",
+    "Action Retrieval",
+    "Campaign / Battle Card Driven",
+    "Card Play Conflict Resolution",
+    "Communication Limits",
+    "Cooperative Game",
+    "Deck Construction",
+    "Deck Bag and Pool Building",
+    "Grid Movement",
+    "Hand Management",
+    "Hexagon Grid",
+    "Legacy Game",
+    "Modular Board",
+    "Once-Per-Game Abilities",
+    "Scenario / Mission / Campaign Game",
+    "Simultaneous Action Selection",
+    "Solo / Solitaire Game",
+    "Storytelling",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Estrategia",
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Vanquish monsters with strategic cardplay. Fulfill your quest to leave your legacy!"
+  },
+  {
+   "id": 262543,
+   "nombre": "Interferencias (6jugadores)",
+   "nombre_bgg": "Wavelength",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 12,
+   "duracion": 45,
+   "edad_min": 14,
+   "anyo": 2019,
+   "nota": 7.4,
+   "dificultad": 1.1,
+   "mecanicas": [
+    "Betting and Bluffing",
+    "Race",
+    "Targeted Clues",
+    "Team-Based Game"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Read your teammates’ minds in this pinpoint party game of infinite possibilities."
+  },
+  {
+   "id": 146149,
+   "nombre": "Speed cups",
+   "nombre_bgg": "Quick Cups",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 15,
+   "edad_min": 6,
+   "anyo": 2013,
+   "nota": 6.24,
+   "dificultad": 1.05,
+   "mecanicas": [
+    "Pattern Building"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Stack cups as fast as you can to match the picture!"
+  },
+  {
+   "id": 80771,
+   "nombre": "Dungeon raiders",
+   "nombre_bgg": "Dungeon Raiders",
+   "expansion": false,
+   "min_jugadores": 3,
+   "max_jugadores": 5,
+   "duracion": 60,
+   "edad_min": 8,
+   "anyo": 2011,
+   "nota": 6.67,
+   "dificultad": 1.41,
+   "mecanicas": [
+    "Hand Management",
+    "Player Elimination",
+    "Simultaneous Action Selection",
+    "Take That",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Familiar",
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Team up to defeat monsters and split loot. Or be greedy and face the consequences."
+  },
+  {
+   "id": 1927,
+   "nombre": "Munchkin",
+   "nombre_bgg": "Munchkin",
+   "expansion": false,
+   "min_jugadores": 3,
+   "max_jugadores": 6,
+   "duracion": 120,
+   "edad_min": 10,
+   "anyo": 2001,
+   "nota": 5.89,
+   "dificultad": 1.8,
+   "mecanicas": [
+    "Hand Management",
+    "Take That",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Attack and loot in this humorous, card-based dungeon crawler."
+  },
+  {
+   "id": 163412,
+   "nombre": "Patchwork",
+   "nombre_bgg": "Patchwork",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 2,
+   "duracion": 30,
+   "edad_min": 8,
+   "anyo": 2014,
+   "nota": 7.63,
+   "dificultad": 1.64,
+   "mecanicas": [
+    "Card Drafting",
+    "Grid Coverage",
+    "Income",
+    "Square Grid",
+    "Tile Placement",
+    "Time Track",
+    "Victory Points as a Resource"
+   ],
+   "categorias": [
+    "Abstracto",
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Piece together a quilt and leave no holes to become the button master."
+  },
+  {
+   "id": 37904,
+   "nombre": "Formula D",
+   "nombre_bgg": "Formula D",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 10,
+   "duracion": 60,
+   "edad_min": 8,
+   "anyo": 2008,
+   "nota": 7.01,
+   "dificultad": 1.97,
+   "mecanicas": [
+    "Dice Rolling",
+    "Different Dice Movement",
+    "Grid Movement",
+    "Movement Points",
+    "Player Elimination",
+    "Push Your Luck",
+    "Race",
+    "Roll / Spin and Move",
+    "Simulation"
+   ],
+   "categorias": [
+    "Familiar",
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Use custom dice to race in the cities and on Formula 1 courses."
+  },
+  {
+   "id": 14996,
+   "nombre": "Aventureros al tren Europa",
+   "nombre_bgg": "Ticket to Ride: Europe",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 5,
+   "duracion": 60,
+   "edad_min": 8,
+   "anyo": 2005,
+   "nota": 7.54,
+   "dificultad": 1.94,
+   "mecanicas": [
+    "Card Drafting",
+    "Connections",
+    "End Game Bonuses",
+    "Hand Management",
+    "Network and Route Building",
+    "Push Your Luck",
+    "Set Collection"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Build train routes across Europe in this sequel to the hit family board game."
+  },
+  {
+   "id": 253284,
+   "nombre": "Aventureros al tren NY",
+   "nombre_bgg": "Ticket to Ride: New York",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 15,
+   "edad_min": 8,
+   "anyo": 2018,
+   "nota": 6.97,
+   "dificultad": 1.28,
+   "mecanicas": [
+    "Card Drafting",
+    "Hand Management",
+    "Network and Route Building",
+    "Set Collection"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Catch a cab across Manhattan when low on time with this 15 minute express version."
+  },
+  {
+   "id": 3071,
+   "nombre": "Bloodbown clasico",
+   "nombre_bgg": "Blood Bowl",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 2,
+   "duracion": 120,
+   "edad_min": 12,
+   "anyo": 1986,
+   "nota": 6.01,
+   "dificultad": 2.7,
+   "mecanicas": [
+    "Grid Movement",
+    "Roll / Spin and Move",
+    "Square Grid"
+   ],
+   "categorias": [
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021"
+  },
+  {
+   "id": 175117,
+   "nombre": "Celestia",
+   "nombre_bgg": "Celestia",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 6,
+   "duracion": 30,
+   "edad_min": 8,
+   "anyo": 2015,
+   "nota": 6.96,
+   "dificultad": 1.33,
+   "mecanicas": [
+    "Betting and Bluffing",
+    "Dice Rolling",
+    "Hidden Victory Points",
+    "Push Your Luck"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Players take turns as pilot and press their luck to win the greatest treasures!"
+  },
+  {
+   "id": 33107,
+   "nombre": "Senji",
+   "nombre_bgg": "Senji",
+   "expansion": false,
+   "min_jugadores": 3,
+   "max_jugadores": 6,
+   "duracion": 90,
+   "edad_min": 12,
+   "anyo": 2008,
+   "nota": 6.51,
+   "dificultad": 2.96,
+   "mecanicas": [
+    "Area Movement",
+    "Auction/Bidding",
+    "Card Drafting",
+    "Dice Rolling",
+    "Hand Management",
+    "Order Counters",
+    "Set Collection",
+    "Simultaneous Action Selection",
+    "Trading"
+   ],
+   "categorias": [
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Don the armor of a chief of a Japanese clan in medieval Japan."
+  },
+  {
+   "id": 230802,
+   "nombre": "Azul",
+   "nombre_bgg": "Azul",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 45,
+   "edad_min": 8,
+   "anyo": 2017,
+   "nota": 7.78,
+   "dificultad": 1.77,
+   "mecanicas": [
+    "Card Drafting",
+    "End Game Bonuses",
+    "Pattern Building",
+    "Set Collection",
+    "Tile Placement",
+    "Turn Order: Claim Action"
+   ],
+   "categorias": [
+    "Abstracto",
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Artfully embellish the walls of your palace by drafting the most beautiful tiles."
+  },
+  {
+   "id": 70323,
+   "nombre": "King of Tokyi",
+   "nombre_bgg": "King of Tokyo",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 6,
+   "duracion": 30,
+   "edad_min": 8,
+   "anyo": 2011,
+   "nota": 7.16,
+   "dificultad": 1.49,
+   "mecanicas": [
+    "Card Drafting",
+    "Dice Rolling",
+    "King of the Hill",
+    "Player Elimination",
+    "Push Your Luck",
+    "Re-rolling and Locking"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "It's a fight to the death when giant monsters battle over Tokyo in this dice-roller."
+  },
+  {
+   "id": 266192,
+   "nombre": "Wingspam",
+   "nombre_bgg": "Wingspan",
+   "expansion": false,
+   "min_jugadores": 1,
+   "max_jugadores": 5,
+   "duracion": 70,
+   "edad_min": 10,
+   "anyo": 2019,
+   "nota": 8.09,
+   "dificultad": 2.42,
+   "mecanicas": [
+    "Card Drafting",
+    "Dice Rolling",
+    "Drafting",
+    "End Game Bonuses",
+    "Hand Management",
+    "Set Collection",
+    "Solo / Solitaire Game"
+   ],
+   "categorias": [
+    "Familiar",
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Attract a beautiful and diverse collection of birds to your wildlife reserve."
+  },
+  {
+   "id": 156129,
+   "nombre": "Asesinato en Hong Kong",
+   "nombre_bgg": "Deception: Murder in Hong Kong",
+   "expansion": false,
+   "min_jugadores": 4,
+   "max_jugadores": 12,
+   "duracion": 20,
+   "edad_min": 14,
+   "anyo": 2014,
+   "nota": 7.48,
+   "dificultad": 1.6,
+   "mecanicas": [
+    "Deduction",
+    "Events",
+    "Hidden Roles",
+    "Storytelling",
+    "Team-Based Game",
+    "Traitor Game"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Interpret forensic evidence to solve a murder. Beware, the murderer may be among you!"
+  },
+  {
+   "id": 256320,
+   "nombre": "Fertility",
+   "nombre_bgg": "Fertility",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 45,
+   "edad_min": 10,
+   "anyo": 2018,
+   "nota": 7.2,
+   "dificultad": 1.96,
+   "mecanicas": [
+    "Modular Board",
+    "Set Collection",
+    "Tile Placement"
+   ],
+   "categorias": [
+    "Familiar",
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021"
+  },
+  {
+   "id": 13,
+   "nombre": "Catan",
+   "nombre_bgg": "CATAN",
+   "expansion": false,
+   "min_jugadores": 3,
+   "max_jugadores": 4,
+   "duracion": 120,
+   "edad_min": 10,
+   "anyo": 1995,
+   "nota": 7.12,
+   "dificultad": 2.32,
+   "mecanicas": [
+    "Dice Rolling",
+    "Hexagon Grid",
+    "Income",
+    "Modular Board",
+    "Network and Route Building",
+    "Race",
+    "Random Production",
+    "Trading",
+    "Variable Set-up"
+   ],
+   "categorias": [
+    "Familiar",
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Collect and trade resources to build up the island of Catan in this modern classic."
+  },
+  {
+   "id": 121410,
+   "nombre": "Steam Park",
+   "nombre_bgg": "Steam Park",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 60,
+   "edad_min": 10,
+   "anyo": 2013,
+   "nota": 6.86,
+   "dificultad": 2.12,
+   "mecanicas": [
+    "Card Drafting",
+    "Dice Rolling",
+    "Memory",
+    "Modular Board"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Ready, set, roll! Create the best robot amusement park!"
+  },
+  {
+   "id": 18,
+   "nombre": "Robo Rally",
+   "nombre_bgg": "RoboRally",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 8,
+   "duracion": 120,
+   "edad_min": 12,
+   "anyo": 1994,
+   "nota": 7.07,
+   "dificultad": 2.43,
+   "mecanicas": [
+    "Action Queue",
+    "Bias",
+    "Grid Movement",
+    "Lose a Turn",
+    "Modular Board",
+    "Programmed Movement",
+    "Race",
+    "Scenario / Mission / Campaign Game",
+    "Simultaneous Action Selection"
+   ],
+   "categorias": [
+    "Estrategia",
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Use pre-programmed movement cards to race your robot around a hazardous factory."
+  },
+  {
+   "id": 366013,
+   "nombre": "HEAT",
+   "nombre_bgg": "Heat: Pedal to the Metal",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 6,
+   "duracion": 60,
+   "duracion_min": 30,
+   "dificultad": 1.9,
+   "mecanicas": [
+    "Hand Management",
+    "Simultaneous Action Selection",
+    "Racing"
+   ],
+   "categorias": [
+    "Estrategia",
+    "Familiar"
+   ],
+   "fuente": "manual",
+   "nota": 7.83,
+   "descripcion": "Manage your race car's speed to keep from overheating.",
+   "anyo": 2022
+  },
+  {
+   "id": 318472,
+   "nombre": "Bloodbowl segunda temporada",
+   "nombre_bgg": "Blood Bowl: Second Season Edition",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 2,
+   "duracion": 120,
+   "edad_min": 12,
+   "anyo": 2020,
+   "nota": 8.57,
+   "dificultad": 3.55,
+   "mecanicas": [
+    "Critical Hits and Failures",
+    "Dice Rolling",
+    "Grid Movement",
+    "Movement Points",
+    "Push Your Luck",
+    "Square Grid",
+    "Variable Player Powers",
+    "Zone of Control"
+   ],
+   "categorias": [],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "It’s not the winning or losing that matters, it’s the mayhem and violence that count!"
+  },
+  {
+   "id": 27848,
+   "nombre": "La era de conan: el juego de tablero",
+   "nombre_bgg": "Age of Conan: The Strategy Board Game",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 90,
+   "edad_min": 12,
+   "anyo": 2009,
+   "nota": 6.66,
+   "dificultad": 3.28,
+   "mecanicas": [
+    "Dice Rolling",
+    "Variable Phase Order",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Estrategia",
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Vie for control of Hyborian Age realms, and direct (or beware of) Conan's adventures."
+  },
+  {
+   "id": 172818,
+   "nombre": "Arriba y abajo",
+   "nombre_bgg": "Above and Below",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 90,
+   "edad_min": 13,
+   "anyo": 2015,
+   "nota": 7.39,
+   "dificultad": 2.53,
+   "mecanicas": [
+    "Action Points",
+    "Dice Rolling",
+    "Narrative Choice / Paragraph",
+    "Set Collection",
+    "Storytelling",
+    "Trading"
+   ],
+   "categorias": [
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Build your newly founded village above while exploring the caves and stories below."
+  },
+  {
+   "id": 181304,
+   "nombre": "Mysterium",
+   "nombre_bgg": "Mysterium",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 7,
+   "duracion": 42,
+   "edad_min": 10,
+   "anyo": 2015,
+   "nota": 7.26,
+   "dificultad": 1.91,
+   "mecanicas": [
+    "Communication Limits",
+    "Cooperative Game",
+    "Deduction",
+    "Finale Ending",
+    "Hand Management",
+    "Pattern Recognition"
+   ],
+   "categorias": [
+    "Familiar",
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Become a psychic and divine spectral visions to solve the murder of a restless ghost."
+  },
+  {
+   "id": 102548,
+   "nombre": "Dungeon Fighters",
+   "nombre_bgg": "Dungeon Fighter",
+   "expansion": false,
+   "min_jugadores": 1,
+   "max_jugadores": 6,
+   "duracion": 60,
+   "edad_min": 14,
+   "anyo": 2011,
+   "nota": 6.82,
+   "dificultad": 1.75,
+   "mecanicas": [
+    "Card Drafting",
+    "Cooperative Game",
+    "Dice Rolling",
+    "Drafting",
+    "Modular Board",
+    "Point to Point Movement",
+    "Turn Order: Progressive",
+    "Variable Player Powers",
+    "Variable Set-up"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Test your dice-rolling skills to overcome tricky challenges in dangerous dungeons."
+  },
+  {
+   "id": 39856,
+   "nombre": "Dixit",
+   "nombre_bgg": "Dixit",
+   "expansion": false,
+   "min_jugadores": 3,
+   "max_jugadores": 6,
+   "duracion": 30,
+   "edad_min": 8,
+   "anyo": 2008,
+   "nota": 7.23,
+   "dificultad": 1.22,
+   "mecanicas": [
+    "Race",
+    "Simultaneous Action Selection",
+    "Storytelling",
+    "Targeted Clues",
+    "Voting"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Give the perfect clue so most (not all) players guess the right surreal image card."
+  },
+  {
+   "id": 2952,
+   "nombre": "Trivial (1453)",
+   "nombre_bgg": "Trivial Pursuit: Genus Edition",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 24,
+   "duracion": 90,
+   "edad_min": 12,
+   "anyo": 1981,
+   "nota": 5.23,
+   "dificultad": 1.65,
+   "mecanicas": [
+    "Roll / Spin and Move",
+    "Set Collection"
+   ],
+   "categorias": [
+    "Familiar",
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Prove you are the master of all things trivia, rolling and moving to collect pies."
+  },
+  {
+   "id": 31481,
+   "nombre": "Galaxy Trucker",
+   "nombre_bgg": "Galaxy Trucker",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 60,
+   "edad_min": 10,
+   "anyo": 2007,
+   "nota": 7.38,
+   "dificultad": 2.33,
+   "mecanicas": [
+    "Dice Rolling",
+    "Events",
+    "Real-Time",
+    "Relative Movement",
+    "Team-Based Game",
+    "Tile Placement",
+    "Track Movement"
+   ],
+   "categorias": [
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Prepare for unknown dangers by building the best spaceship possible."
+  },
+  {
+   "id": 3076,
+   "nombre": "Puerto Rico",
+   "nombre_bgg": "Puerto Rico",
+   "expansion": false,
+   "min_jugadores": 3,
+   "max_jugadores": 5,
+   "duracion": 150,
+   "edad_min": 12,
+   "anyo": 2002,
+   "nota": 7.95,
+   "dificultad": 3.28,
+   "mecanicas": [
+    "Action Drafting",
+    "End Game Bonuses",
+    "Follow",
+    "Hidden Victory Points",
+    "Increase Value of Unchosen Resources",
+    "Turn Order: Progressive",
+    "Variable Phase Order"
+   ],
+   "categorias": [
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Ship goods, construct buildings, and choose roles that benefit you more than others."
+  },
+  {
+   "id": 90137,
+   "nombre": "Bloodbowl Team Manager",
+   "nombre_bgg": "Blood Bowl: Team Manager – The Card Game",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 120,
+   "edad_min": 14,
+   "anyo": 2011,
+   "nota": 7.38,
+   "dificultad": 2.33,
+   "mecanicas": [
+    "Area Majority / Influence",
+    "Card Drafting",
+    "Deck Bag and Pool Building",
+    "Dice Rolling",
+    "Hand Management"
+   ],
+   "categorias": [
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Coach your “fantasy” football team and gather most fans to win."
+  },
+  {
+   "id": 158899,
+   "nombre": "Colt Express",
+   "nombre_bgg": "Colt Express",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 6,
+   "duracion": 40,
+   "edad_min": 10,
+   "anyo": 2014,
+   "nota": 7.1,
+   "dificultad": 1.82,
+   "mecanicas": [
+    "Action Queue",
+    "Hand Management",
+    "Memory",
+    "Programmed Movement",
+    "Take That",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "This is a train robbery! Will you leave with the loot or a bunch of bullet holes?"
+  },
+  {
+   "id": 233371,
+   "nombre": "Clank en el espacio",
+   "nombre_bgg": "Clank! In! Space!: A Deck-Building Adventure",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 90,
+   "edad_min": 12,
+   "anyo": 2017,
+   "nota": 7.84,
+   "dificultad": 2.54,
+   "mecanicas": [
+    "Card Drafting",
+    "Deck Bag and Pool Building",
+    "Modular Board",
+    "Pick-up and Deliver",
+    "Player Elimination",
+    "Point to Point Movement",
+    "Push Your Luck"
+   ],
+   "categorias": [
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Tiptoe your way through Lord Eradikus' spaceship to nab artifacts and an escape pod."
+  },
+  {
+   "id": 155695,
+   "nombre": "Age of War",
+   "nombre_bgg": "Age of War",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 6,
+   "duracion": 30,
+   "edad_min": 14,
+   "anyo": 2014,
+   "nota": 6.45,
+   "dificultad": 1.1,
+   "mecanicas": [
+    "Dice Rolling",
+    "Push Your Luck",
+    "Set Collection",
+    "Take That"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Conquer castles and secure clans in a competitive push-your-luck dice roller."
+  },
+  {
+   "id": 224037,
+   "nombre": "Codigo secreto duo",
+   "nombre_bgg": "Codenames: Duet",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 99,
+   "duracion": 30,
+   "edad_min": 11,
+   "anyo": 2017,
+   "nota": 7.5,
+   "dificultad": 1.34,
+   "mecanicas": [
+    "Communication Limits",
+    "Cooperative Game",
+    "Push Your Luck",
+    "Team-Based Game"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Swap one-word coded clues with your partner, trying to identify specific word cards."
+  },
+  {
+   "id": 92828,
+   "nombre": "Dixit origins (exp)",
+   "nombre_bgg": "Dixit: Odyssey",
+   "expansion": false,
+   "min_jugadores": 3,
+   "max_jugadores": 12,
+   "duracion": 30,
+   "edad_min": 8,
+   "anyo": 2011,
+   "nota": 7.43,
+   "dificultad": 1.19,
+   "mecanicas": [
+    "Storytelling",
+    "Targeted Clues",
+    "Voting"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Don’t be too vague or on the nose when describing beautiful art cards."
+  },
+  {
+   "id": 25821,
+   "nombre": "El hombre lobo, edicion definitiva",
+   "nombre_bgg": "The Werewolves of Miller's Hollow",
+   "expansion": false,
+   "min_jugadores": 8,
+   "max_jugadores": 18,
+   "duracion": 30,
+   "edad_min": 10,
+   "anyo": 2001,
+   "nota": 6.72,
+   "dificultad": 1.32,
+   "mecanicas": [
+    "Player Elimination",
+    "Role Playing",
+    "Team-Based Game",
+    "Variable Player Powers",
+    "Voting"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Be a villager and lynch the werewolves... unless you are a werewolf yourself."
+  },
+  {
+   "id": 174518,
+   "nombre": "Ylandyss",
+   "nombre_bgg": "Ylandyss",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 90,
+   "edad_min": 15,
+   "anyo": 2015,
+   "nota": 7.28,
+   "dificultad": 2.4,
+   "mecanicas": [
+    "Deck Bag and Pool Building"
+   ],
+   "categorias": [],
+   "fuente": "bgg_dataset_2021"
+  },
+  {
+   "id": 154883,
+   "nombre": "Si señor oscuro",
+   "nombre_bgg": "Sì, Oscuro Signore! (Seconda edizione)",
+   "expansion": false,
+   "min_jugadores": 3,
+   "max_jugadores": 6,
+   "duracion": 45,
+   "duracion_min": 45,
+   "dificultad": 1.7,
+   "mecanicas": [
+    "Storytelling",
+    "Role Playing",
+    "Player Judge"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "manual",
+   "nota": 6.13,
+   "anyo": 2005
+  },
+  {
+   "id": 254640,
+   "nombre": "Just one",
+   "nombre_bgg": "Just One",
+   "expansion": false,
+   "min_jugadores": 3,
+   "max_jugadores": 7,
+   "duracion": 20,
+   "edad_min": 8,
+   "anyo": 2018,
+   "nota": 7.61,
+   "dificultad": 1.05,
+   "mecanicas": [
+    "Communication Limits",
+    "Cooperative Game"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Give one-word clues so someone can guess one word, but duplicate clues are discarded."
+  },
+  {
+   "id": 154597,
+   "nombre": "hive pocker",
+   "nombre_bgg": "Hive Pocket",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 2,
+   "duracion": 20,
+   "duracion_min": 20,
+   "dificultad": 2.3,
+   "mecanicas": [
+    "Grid Movement",
+    "Pattern Building",
+    "Tile Placement"
+   ],
+   "categorias": [
+    "Abstracto"
+   ],
+   "fuente": "manual",
+   "nota": 7.7,
+   "descripcion": "Hop, fly, crawl and keep the Hive intact to surround the enemy Queen Bee and win!",
+   "anyo": 2010
+  },
+  {
+   "id": 45,
+   "nombre": "Perudo",
+   "nombre_bgg": "Perudo",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 6,
+   "duracion": 30,
+   "edad_min": 8,
+   "anyo": 1800,
+   "nota": 6.91,
+   "dificultad": 1.26,
+   "mecanicas": [
+    "Betting and Bluffing",
+    "Dice Rolling",
+    "Player Elimination"
+   ],
+   "categorias": [
+    "Familiar",
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Roll dice, take a chance, and bluff your way to victory in this game of luck!"
+  },
+  {
+   "id": 129622,
+   "nombre": "Love letter ?",
+   "nombre_bgg": "Love Letter",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 20,
+   "edad_min": 10,
+   "anyo": 2012,
+   "nota": 7.23,
+   "dificultad": 1.19,
+   "mecanicas": [
+    "Hand Management",
+    "Player Elimination",
+    "Score-and-Reset Game"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Can you get a letter to the princess or remove all your rivals? You win either way!"
+  },
+  {
+   "id": 143741,
+   "nombre": "Bang juego de dados",
+   "nombre_bgg": "BANG! The Dice Game",
+   "expansion": false,
+   "min_jugadores": 3,
+   "max_jugadores": 8,
+   "duracion": 15,
+   "edad_min": 8,
+   "anyo": 2013,
+   "nota": 6.93,
+   "dificultad": 1.27,
+   "mecanicas": [
+    "Dice Rolling",
+    "Hidden Roles",
+    "Player Elimination",
+    "Push Your Luck",
+    "Re-rolling and Locking",
+    "Team-Based Game",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "A wild west elimination dice game with secret teams."
+  },
+  {
+   "id": 263918,
+   "nombre": "Cartografos",
+   "nombre_bgg": "Cartographers",
+   "expansion": false,
+   "min_jugadores": 1,
+   "max_jugadores": 100,
+   "duracion": 45,
+   "edad_min": 10,
+   "anyo": 2019,
+   "nota": 7.69,
+   "dificultad": 1.91,
+   "mecanicas": [
+    "Bingo",
+    "Grid Coverage",
+    "Line Drawing",
+    "Paper-and-Pencil",
+    "Solo / Solitaire Game"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "The Queen's cartographers compete to sketch the most efficient maps."
+  },
+  {
+   "id": 1353,
+   "nombre": "Times up",
+   "nombre_bgg": "Time's Up!",
+   "expansion": false,
+   "min_jugadores": 4,
+   "max_jugadores": 18,
+   "duracion": 90,
+   "edad_min": 12,
+   "anyo": 1999,
+   "nota": 7.29,
+   "dificultad": 1.21,
+   "mecanicas": [
+    "Acting",
+    "Communication Limits",
+    "Memory",
+    "Team-Based Game"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Get your teammates to guess real & fictional people while clues become more limited."
+  },
+  {
+   "id": 63268,
+   "nombre": "Dobble",
+   "nombre_bgg": "Spot it!",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 8,
+   "duracion": 15,
+   "edad_min": 7,
+   "anyo": 2009,
+   "nota": 6.59,
+   "dificultad": 1.03,
+   "mecanicas": [
+    "Speed Matching"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Quick! Which symbol is on both cards? Race others to gather or dump your cards."
+  },
+  {
+   "id": 8098,
+   "nombre": "Jungle Speed (sin token)",
+   "nombre_bgg": "Jungle Speed",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 8,
+   "duracion": 10,
+   "edad_min": 7,
+   "anyo": 1997,
+   "nota": 6.49,
+   "dificultad": 1.14,
+   "mecanicas": [
+    "Pattern Recognition",
+    "Speed Matching"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Flip a card, watch like an eagle for a match, and be the fastest to grab the totem."
+  },
+  {
+   "id": 82168,
+   "nombre": "Escape from the aliens in outer space",
+   "nombre_bgg": "Escape from the Aliens in Outer Space",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 8,
+   "duracion": 45,
+   "edad_min": 12,
+   "anyo": 2010,
+   "nota": 6.93,
+   "dificultad": 1.87,
+   "mecanicas": [
+    "Grid Movement",
+    "Hexagon Grid",
+    "Hidden Movement",
+    "Hidden Roles",
+    "Paper-and-Pencil",
+    "Secret Unit Deployment",
+    "Team-Based Game",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "It's humans vs. aliens in a game of hidden movement and bluffing. Who will survive?"
+  },
+  {
+   "id": 2653,
+   "nombre": "The Island",
+   "nombre_bgg": "Survive: Escape from Atlantis!",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 60,
+   "edad_min": 8,
+   "anyo": 1982,
+   "nota": 7.31,
+   "dificultad": 1.71,
+   "mecanicas": [
+    "Action Points",
+    "Dice Rolling",
+    "Grid Movement",
+    "Hexagon Grid",
+    "Map Reduction",
+    "Memory",
+    "Modular Board",
+    "Secret Unit Deployment",
+    "Take That"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Sharks, whales, and sea monsters, oh my! Hurry and escape before Atlantis disappears!"
+  },
+  {
+   "id": 182874,
+   "nombre": "Gran Hotel Austria",
+   "nombre_bgg": "Grand Austria Hotel",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 120,
+   "edad_min": 12,
+   "anyo": 2015,
+   "nota": 7.89,
+   "dificultad": 3.22,
+   "mecanicas": [
+    "Action Drafting",
+    "Contracts",
+    "Dice Rolling",
+    "End Game Bonuses",
+    "Hand Management",
+    "Once-Per-Game Abilities",
+    "Set Collection",
+    "Variable Player Powers",
+    "Variable Set-up"
+   ],
+   "categorias": [
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Serve guests and prepare rooms to be the best hotelier in the Viennese modern age."
+  },
+  {
+   "id": 237182,
+   "nombre": "Root",
+   "nombre_bgg": "Root",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 90,
+   "edad_min": 10,
+   "anyo": 2018,
+   "nota": 8.1,
+   "dificultad": 3.67,
+   "mecanicas": [
+    "Action Queue",
+    "Action Retrieval",
+    "Area Majority / Influence",
+    "Area Movement",
+    "Dice Rolling",
+    "Hand Management",
+    "Point to Point Movement",
+    "Race",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Estrategia",
+    "Wargame"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Decide the fate of the forest as woodland factions fight for contrasting goals."
+  },
+  {
+   "id": 330149,
+   "nombre": "Root: los merodeadores (exp)",
+   "nombre_bgg": "Root: The Marauder Expansion",
+   "expansion": true,
+   "min_jugadores": null,
+   "max_jugadores": null,
+   "duracion": null,
+   "mecanicas": [],
+   "categorias": [],
+   "fuente": "incompleto",
+   "nota": 8.88,
+   "descripcion": "Ready yourself! New invaders enter the world of Root in the Marauder Expansion.",
+   "anyo": 2022
+  },
+  {
+   "id": 31260,
+   "nombre": "Agricola",
+   "nombre_bgg": "Agricola",
+   "expansion": false,
+   "min_jugadores": 1,
+   "max_jugadores": 5,
+   "duracion": 150,
+   "edad_min": 12,
+   "anyo": 2007,
+   "nota": 7.91,
+   "dificultad": 3.64,
+   "mecanicas": [
+    "Advantage Token",
+    "Automatic Resource Growth",
+    "Card Drafting",
+    "Enclosure",
+    "Hand Management",
+    "Increase Value of Unchosen Resources",
+    "Solo / Solitaire Game",
+    "Turn Order: Claim Action",
+    "Variable Player Powers",
+    "Worker Placement"
+   ],
+   "categorias": [
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Build your farmstead by sowing fields and raising livestock. But don't forget to eat!"
+  },
+  {
+   "id": 342942,
+   "nombre": "Ark Nova",
+   "nombre_bgg": "Ark Nova",
+   "expansion": false,
+   "min_jugadores": 1,
+   "max_jugadores": 4,
+   "duracion": 150,
+   "duracion_min": 90,
+   "dificultad": 3.7,
+   "mecanicas": [
+    "Card Drafting",
+    "Hand Management",
+    "Tile Placement",
+    "Set Collection"
+   ],
+   "categorias": [
+    "Estrategia"
+   ],
+   "fuente": "manual",
+   "nota": 8.66,
+   "descripcion": "Design a modern zoo to run a successful park and to support conservation projects.",
+   "anyo": 2021
+  },
+  {
+   "id": 30869,
+   "nombre": "Thebes",
+   "nombre_bgg": "Thebes",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 60,
+   "edad_min": 8,
+   "anyo": 2007,
+   "nota": 7.13,
+   "dificultad": 2.16,
+   "mecanicas": [
+    "Point to Point Movement",
+    "Set Collection",
+    "Time Track"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Become an archaeologist as you study ancient cultures, go digging, and exhibit."
+  },
+  {
+   "id": 59959,
+   "nombre": "Sobras sobre londres",
+   "nombre_bgg": "Letters from Whitechapel",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 6,
+   "duracion": 60,
+   "edad_min": 14,
+   "anyo": 2011,
+   "nota": 7.37,
+   "dificultad": 2.66,
+   "mecanicas": [
+    "Hidden Movement",
+    "Memory",
+    "Point to Point Movement",
+    "Secret Unit Deployment",
+    "Team-Based Game"
+   ],
+   "categorias": [
+    "Estrategia",
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Slip away as Jack the Ripper or track his hidden movement as a team of investigators."
+  },
+  {
+   "id": 15987,
+   "nombre": "Arkham Horror",
+   "nombre_bgg": "Arkham Horror",
+   "expansion": false,
+   "min_jugadores": 1,
+   "max_jugadores": 8,
+   "duracion": 240,
+   "edad_min": 14,
+   "anyo": 2005,
+   "nota": 7.25,
+   "dificultad": 3.58,
+   "mecanicas": [
+    "Cooperative Game",
+    "Dice Rolling",
+    "Hand Management",
+    "Point to Point Movement",
+    "Role Playing",
+    "Solo / Solitaire Game",
+    "Stat Check Resolution",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Work as a team to save the town of Arkham from monsters and a Great Old One."
+  },
+  {
+   "id": 68448,
+   "nombre": "7 wonders",
+   "nombre_bgg": "7 Wonders",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 7,
+   "duracion": 30,
+   "edad_min": 10,
+   "anyo": 2010,
+   "nota": 7.72,
+   "dificultad": 2.33,
+   "mecanicas": [
+    "Card Drafting",
+    "Drafting",
+    "Hand Management",
+    "Set Collection",
+    "Simultaneous Action Selection",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Familiar",
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Draft cards to develop your ancient civilization and build its Wonder of the World."
+  },
+  {
+   "id": 83195,
+   "nombre": "Fantasmas Blitz",
+   "nombre_bgg": "Ghost Blitz",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 8,
+   "duracion": 20,
+   "edad_min": 8,
+   "anyo": 2010,
+   "nota": 6.71,
+   "dificultad": 1.15,
+   "mecanicas": [
+    "Pattern Recognition",
+    "Speed Matching"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Quickly identify and grab hold of the correct item in a cluttered, spooky basement."
+  },
+  {
+   "id": 8203,
+   "nombre": "Pinguinos",
+   "nombre_bgg": "Hey, That's My Fish!",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 20,
+   "edad_min": 8,
+   "anyo": 2003,
+   "nota": 6.7,
+   "dificultad": 1.46,
+   "mecanicas": [
+    "Grid Movement",
+    "Hexagon Grid",
+    "Map Reduction",
+    "Modular Board"
+   ],
+   "categorias": [
+    "Abstracto",
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Quest for the most fish, but don't get stranded as ice disappears beneath your feet."
+  },
+  {
+   "id": 298690,
+   "nombre": "Diaspora",
+   "nombre_bgg": "Diáspora",
+   "expansion": false,
+   "min_jugadores": 1,
+   "max_jugadores": 24,
+   "duracion": 600,
+   "edad_min": 10,
+   "anyo": 2019,
+   "nota": 6.76,
+   "dificultad": 2.5,
+   "mecanicas": [
+    "Cooperative Game",
+    "Deduction",
+    "Solo / Solitaire Game"
+   ],
+   "categorias": [],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Solve mysteries and discover the story of this interstellar voyage."
+  },
+  {
+   "id": 173346,
+   "nombre": "7 wonders Duel",
+   "nombre_bgg": "7 Wonders Duel",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 2,
+   "duracion": 30,
+   "edad_min": 10,
+   "anyo": 2015,
+   "nota": 8.1,
+   "dificultad": 2.23,
+   "mecanicas": [
+    "Card Drafting",
+    "Drafting",
+    "Set Collection",
+    "Sudden Death Ending",
+    "Tug of War"
+   ],
+   "categorias": [
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Science? Military? What will you draft to win this head-to-head version of 7 Wonders?"
+  },
+  {
+   "id": 309116,
+   "nombre": "7 wonders Duel: Agora",
+   "nombre_bgg": "7 Wonders Duel: Agora",
+   "expansion": true,
+   "min_jugadores": null,
+   "max_jugadores": null,
+   "duracion": null,
+   "mecanicas": [],
+   "categorias": [],
+   "fuente": "incompleto",
+   "nota": 8.14,
+   "descripcion": "Claim victory by ruling the senate in this political expansion for 7 Wonders Duel!",
+   "anyo": 2020
+  },
+  {
+   "id": 202976,
+   "nombre": "7 wonders Duel: Pantheon",
+   "nombre_bgg": "7 Wonders Duel: Pantheon",
+   "expansion": true,
+   "min_jugadores": null,
+   "max_jugadores": null,
+   "duracion": null,
+   "mecanicas": [],
+   "categorias": [],
+   "fuente": "incompleto",
+   "nota": 8.01,
+   "descripcion": "Create a unique pantheon of gods to worship in this expansion for 7 Wonders Duel!",
+   "anyo": 2016
+  },
+  {
+   "id": 136063,
+   "nombre": "Deserto prohibido",
+   "nombre_bgg": "Forbidden Desert",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 5,
+   "duracion": 45,
+   "edad_min": 10,
+   "anyo": 2013,
+   "nota": 7.11,
+   "dificultad": 2.05,
+   "mecanicas": [
+    "Action Points",
+    "Bias",
+    "Cooperative Game",
+    "Grid Movement",
+    "Hand Management",
+    "Map Reduction",
+    "Modular Board",
+    "Pick-up and Deliver",
+    "Set Collection",
+    "Solo / Solitaire Game",
+    "Square Grid",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Work together to escape the desert, before sand buries you or your supplies run dry!"
+  },
+  {
+   "id": 155362,
+   "nombre": "Cash N' Guns",
+   "nombre_bgg": "Ca$h 'n Guns: Second Edition",
+   "expansion": false,
+   "min_jugadores": 4,
+   "max_jugadores": 8,
+   "duracion": 30,
+   "edad_min": 10,
+   "anyo": 2014,
+   "nota": 6.87,
+   "dificultad": 1.26,
+   "mecanicas": [
+    "Card Drafting",
+    "Player Elimination",
+    "Simultaneous Action Selection",
+    "Take That",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "A band of gangsters splits its loot — but guns speak louder than money."
+  },
+  {
+   "id": 30909,
+   "nombre": "Cash N' Guns yakuza",
+   "nombre_bgg": "Ca$h 'n Gun$: Yakuzas",
+   "expansion": false,
+   "min_jugadores": 4,
+   "max_jugadores": 8,
+   "duracion": 30,
+   "duracion_min": 30,
+   "dificultad": 1.4,
+   "mecanicas": [
+    "Bluffing",
+    "Negotiation",
+    "Simultaneous Action Selection"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "manual",
+   "nota": 6.53,
+   "anyo": 2007
+  },
+  {
+   "id": 478,
+   "nombre": "Ciudadelas 2nd edition",
+   "nombre_bgg": "Citadels",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 8,
+   "duracion": 60,
+   "edad_min": 10,
+   "anyo": 2000,
+   "nota": 7.08,
+   "dificultad": 2.05,
+   "mecanicas": [
+    "Action Drafting",
+    "Card Drafting",
+    "Lose a Turn",
+    "Set Collection",
+    "Turn Order: Role Order",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Familiar",
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Bishop, warlord, thief, king: change roles, build your city and hinder your rivals."
+  },
+  {
+   "id": 139030,
+   "nombre": "Mascarade",
+   "nombre_bgg": "Mascarade",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 13,
+   "duracion": 30,
+   "edad_min": 10,
+   "anyo": 2013,
+   "nota": 6.59,
+   "dificultad": 1.53,
+   "mecanicas": [
+    "Hidden Roles",
+    "Memory",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Get rich...or die trying in this fast-paced game of deduction and deception."
+  },
+  {
+   "id": 3955,
+   "nombre": "Bang cartas",
+   "nombre_bgg": "BANG!",
+   "expansion": false,
+   "min_jugadores": 4,
+   "max_jugadores": 7,
+   "duracion": 40,
+   "edad_min": 10,
+   "anyo": 2002,
+   "nota": 6.5,
+   "dificultad": 1.64,
+   "mecanicas": [
+    "Hand Management",
+    "Hidden Roles",
+    "Kill Steal",
+    "Player Elimination",
+    "Take That",
+    "Team-Based Game",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Be the last one standing in this wild west shootout game with hidden roles."
+  },
+  {
+   "id": 169255,
+   "nombre": "Juego de tronos: el juego de cartas",
+   "nombre_bgg": "A Game of Thrones: The Card Game (Second Edition)",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 120,
+   "edad_min": 14,
+   "anyo": 2015,
+   "nota": 7.53,
+   "dificultad": 3.53,
+   "mecanicas": [
+    "Alliances",
+    "Card Drafting",
+    "Hand Management",
+    "Simultaneous Action Selection",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Personalizable"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Command Westeros' factions and plot your path to the Iron Throne."
+  },
+  {
+   "id": 169786,
+   "nombre": "Scythe",
+   "nombre_bgg": "Scythe",
+   "expansion": false,
+   "min_jugadores": 1,
+   "max_jugadores": 5,
+   "duracion": 115,
+   "edad_min": 14,
+   "anyo": 2016,
+   "nota": 8.2,
+   "dificultad": 3.41,
+   "mecanicas": [
+    "Area Majority / Influence",
+    "Card Play Conflict Resolution",
+    "Force Commitment",
+    "Grid Movement",
+    "Hexagon Grid",
+    "King of the Hill",
+    "Movement Points",
+    "Moving Multiple Units",
+    "Narrative Choice / Paragraph",
+    "Solo / Solitaire Game",
+    "Tech Trees / Tech Tracks",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Five factions vie for dominance in a war-torn, mech-filled, dieselpunk 1920s Europe."
+  },
+  {
+   "id": 2651,
+   "nombre": "Alta Tension",
+   "nombre_bgg": "Power Grid",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 6,
+   "duracion": 120,
+   "edad_min": 12,
+   "anyo": 2004,
+   "nota": 7.84,
+   "dificultad": 3.27,
+   "mecanicas": [
+    "Auction/Bidding",
+    "Auction: Turn Order Until Pass",
+    "Catch the Leader",
+    "Income",
+    "Market",
+    "Network and Route Building",
+    "Turn Order: Stat-Based"
+   ],
+   "categorias": [
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Bid, network, and manage resources in a race to supply the most cities with power."
+  },
+  {
+   "id": 36218,
+   "nombre": "Dominion",
+   "nombre_bgg": "Dominion",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 30,
+   "edad_min": 13,
+   "anyo": 2008,
+   "nota": 7.61,
+   "dificultad": 2.36,
+   "mecanicas": [
+    "Deck Bag and Pool Building",
+    "Delayed Purchase",
+    "Hand Management",
+    "Take That",
+    "Variable Set-up"
+   ],
+   "categorias": [
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Acquire the most valuable lands by building your deck with treasure and power cards."
+  },
+  {
+   "id": 51,
+   "nombre": "Ricochet Robots",
+   "nombre_bgg": "Ricochet Robots",
+   "expansion": false,
+   "min_jugadores": 1,
+   "max_jugadores": 99,
+   "duracion": 30,
+   "edad_min": 10,
+   "anyo": 1999,
+   "nota": 7.02,
+   "dificultad": 2.42,
+   "mecanicas": [
+    "Grid Movement",
+    "Modular Board"
+   ],
+   "categorias": [
+    "Abstracto"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Be the first to solve a spatial puzzle using hard-controlled robots to win!"
+  },
+  {
+   "id": 345584,
+   "nombre": "Mindbug",
+   "nombre_bgg": "Mindbug",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 20,
+   "duracion_min": 15,
+   "dificultad": 1.7,
+   "mecanicas": [
+    "Hand Management",
+    "Take That",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Estrategia"
+   ],
+   "fuente": "manual",
+   "nota": 8.03,
+   "descripcion": "Serve the Mindbug, summon hybrids, and mind-control your opponent's best cards.",
+   "anyo": 2022
+  },
+  {
+   "id": 128882,
+   "nombre": "Avaon",
+   "nombre_bgg": "The Resistance: Avalon",
+   "expansion": false,
+   "min_jugadores": 5,
+   "max_jugadores": 10,
+   "duracion": 30,
+   "edad_min": 13,
+   "anyo": 2012,
+   "nota": 7.55,
+   "dificultad": 1.77,
+   "mecanicas": [
+    "Hidden Roles",
+    "Roles with Asymmetric Information",
+    "Simultaneous Action Selection",
+    "Team-Based Game",
+    "Traitor Game",
+    "Variable Player Powers",
+    "Voting"
+   ],
+   "categorias": [
+    "Fiesta"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Who can you trust? A game of social deduction set in King Arthur’s legendary realm."
+  },
+  {
+   "id": 6352,
+   "nombre": "El Señor de los Anillos",
+   "nombre_bgg": "Lord of the Rings",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 5,
+   "duracion": 20,
+   "edad_min": 6,
+   "anyo": 2003,
+   "nota": 5.92,
+   "dificultad": 1.24,
+   "mecanicas": [
+    "Point to Point Movement",
+    "Roll / Spin and Move"
+   ],
+   "categorias": [
+    "Infantil"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Hobbits adventure through Middle Earth on a quest to destroy the One Ring."
+  },
+  {
+   "id": 24480,
+   "nombre": "Los Pilares de la Tierra",
+   "nombre_bgg": "The Pillars of the Earth",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 4,
+   "duracion": 120,
+   "edad_min": 12,
+   "anyo": 2006,
+   "nota": 7.28,
+   "dificultad": 2.82,
+   "mecanicas": [
+    "Events",
+    "Turn Order: Random",
+    "Worker Placement",
+    "Worker Placement",
+    "Different Worker Types"
+   ],
+   "categorias": [
+    "Estrategia"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Produce, craft, and recruit to build a cathedral in this classic worker placement."
+  },
+  {
+   "id": 209778,
+   "nombre": "Magic Maze",
+   "nombre_bgg": "Magic Maze",
+   "expansion": false,
+   "min_jugadores": 1,
+   "max_jugadores": 8,
+   "duracion": 15,
+   "edad_min": 8,
+   "anyo": 2017,
+   "nota": 7.0,
+   "dificultad": 1.75,
+   "mecanicas": [
+    "Communication Limits",
+    "Cooperative Game",
+    "Elapsed Real Time Ending",
+    "Grid Movement",
+    "Map Addition",
+    "Modular Board",
+    "Real-Time",
+    "Solo / Solitaire Game",
+    "Variable Player Powers"
+   ],
+   "categorias": [
+    "Familiar"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Silently cooperate to rob a labyrinthine shopping mall before time runs out."
+  },
+  {
+   "id": 171131,
+   "nombre": "Captain Sonar",
+   "nombre_bgg": "Captain Sonar",
+   "expansion": false,
+   "min_jugadores": 2,
+   "max_jugadores": 8,
+   "duracion": 60,
+   "edad_min": 14,
+   "anyo": 2016,
+   "nota": 7.54,
+   "dificultad": 2.15,
+   "mecanicas": [
+    "Grid Movement",
+    "Hidden Movement",
+    "Line Drawing",
+    "Real-Time",
+    "Role Playing",
+    "Secret Unit Deployment",
+    "Simulation",
+    "Team-Based Game"
+   ],
+   "categorias": [
+    "Fiesta",
+    "Tematico"
+   ],
+   "fuente": "bgg_dataset_2021",
+   "descripcion": "Torpedoes away! Hunt for your opponent's sub in this exciting, real-time team game."
+  }
+ ]
+}
